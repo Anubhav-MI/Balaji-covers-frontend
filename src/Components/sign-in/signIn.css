@@ -8,6 +8,7 @@
     margin: 0;
     padding: 8px 0 0 12px;
     font-size: 14px;
+    text-align: left;
   }
   .line {
     width: 340px;
@@ -38,7 +39,7 @@
     background-color: #424d51 !important;
     color: #fffbf1;
   }
-  .login {
+  .signup {
     background-color: #fffbf1;
     color: #424d51;
   }

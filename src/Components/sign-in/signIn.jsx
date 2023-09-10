@@ -1,13 +1,14 @@
-import "./signup.css";
-function SignUp() {
+import "./signIn.css";
+
+function SignIn() {
   return (
     <div className="container">
-      <p className="top">Home&rarr;Signup</p>
+      <p className="top">Home&rarr;Login</p>
       <div class="line"></div>
 
       <div className="btn-container">
-        <button className="btn login">Login</button>
-        <button className="btn action-btn">Sign up</button>
+        <button className="btn action-btn">Login</button>
+        <button className="btn signup">Sign up</button>
       </div>
       <div className="form">
         <input className="form-item" type="email" placeholder="Email"></input>
@@ -16,11 +17,14 @@ function SignUp() {
           type="password"
           placeholder="Password"
         ></input>
-        <button className="form-item action-btn create-btn">CREATE</button>
+        <p>
+          Forgot your password? <a href="/forgot-password"> Reset</a>
+        </p>
+        <button className="form-item action-btn create-btn">LOGIN</button>
       </div>
 
       <div className="auth">
-        <p>Or Sign up using</p>
+        <p>Or Login using</p>
         <div className="auth-icon">
           <button className="auth-button">
             <img
@@ -40,11 +44,11 @@ function SignUp() {
           </button>
         </div>
         <div className="auth-alt">
-          <p>Already have an account?</p>
-          <a href="/signin">Login</a>
+          <p>New customer?</p>
+          <a href="/">Sign up</a>
         </div>
       </div>
     </div>
   );
 }
-export default SignUp;
+export default SignIn;
