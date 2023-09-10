@@ -1,0 +1,18 @@
+@media (max-width: 360px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fffbf1;
+    background-color: #424d51;
+    width: 100%;
+    height: 72px;
+    font-weight: 400;
+  }
+}
