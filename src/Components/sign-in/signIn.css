@@ -4,18 +4,6 @@
       sans-serif;
     background-color: #fffbf1;
   }
-  .top {
-    margin: 0;
-    padding: 8px 0 0 12px;
-    font-size: 14px;
-    text-align: left;
-  }
-  .line {
-    width: 340px;
-    height: 1px;
-    margin: 0 5px;
-    background-color: #424d51;
-  }
 
   .btn-container {
     display: flex;
@@ -34,14 +22,12 @@
     line-height: 28px;
     letter-spacing: 0em;
     text-align: center;
+    background-color: #fffbf1;
+    color: #424d51;
   }
   .action-btn {
     background-color: #424d51 !important;
-    color: #fffbf1;
-  }
-  .signup {
-    background-color: #fffbf1;
-    color: #424d51;
+    color: #fffbf1 !important;
   }
   .form {
     display: flex;
