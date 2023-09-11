@@ -4,6 +4,7 @@ import Navbar from "./Components/navbar/navbar";
 import Footer from "./Components/footer/footer";
 import SignIn from "./Components/sign-in/signIn";
 import Forgotpassword from "./Components/forgotPassword/forgotpassword";
+import Home from "./Components/home/home";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -14,18 +15,12 @@ function App() {
         <Routes>
           <Route path="/signin" element={<SignIn />} />
           <Route path="/" element={<SignUp />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/forgot-password" element={<Forgotpassword />} />
         </Routes>
         <Footer />
       </div>
     </Router>
-    // <div>
-    //   <Navbar />
-    //   {/* <SignUp /> */}
-    //   {/* <SignIn /> */}
-    //   <Forgotpassword />
-    //
-    // </div>
   );
 }
 

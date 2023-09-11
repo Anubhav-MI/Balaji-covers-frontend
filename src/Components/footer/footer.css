@@ -39,6 +39,7 @@ a {
   background-color: #424d51;
 }
 .copyright {
+  text-align: left;
   color: #4c5c5f;
   margin-top: 16px;
   margin-left: 24px;

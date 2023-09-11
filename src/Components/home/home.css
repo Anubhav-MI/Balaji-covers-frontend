@@ -1,0 +1,27 @@
+.title-container {
+  margin: 32px 0;
+  font-size: 36px;
+  text-align: center;
+}
+
+.whatsapp {
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.btn-container {
+  margin: 0;
+  height: 100px;
+}
+.btn {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
+.print {
+  display: flex;
+  gap: 8px;
+  height: 100px;
+  width: 95px;
+}
