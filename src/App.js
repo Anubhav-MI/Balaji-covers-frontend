@@ -6,6 +6,7 @@ import SignIn from "./Components/sign-in/signIn";
 import Forgotpassword from "./Components/forgotPassword/forgotpassword";
 import Home from "./Components/home/home";
 import Frames from "./Components/home/frames/frames";
+import PhoneCover from "./Components/home/phone cover/phoneCover";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/signup" element={<SignUp />} />
           <Route path="/" element={<Home />} />
           <Route path="/home/frames" element={<Frames />} />
+          <Route path="/home/phone-cover" element={<PhoneCover />} />
           <Route path="/forgot-password" element={<Forgotpassword />} />
         </Routes>
         <Footer />

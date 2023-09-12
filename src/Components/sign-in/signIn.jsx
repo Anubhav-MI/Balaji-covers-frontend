@@ -8,7 +8,11 @@ function SignIn() {
       <div className="container">
         <div className="btn-container">
           <button className="btn action-btn">Login</button>
-          <button className="btn signup">Sign up</button>
+
+          <a href="/signup">
+            {" "}
+            <button className="btn signup">Sign up </button>
+          </a>
         </div>
         <div className="form">
           <input className="form-item" type="email" placeholder="Email"></input>

@@ -1,4 +1,5 @@
 import "./signup.css";
+import "../general.css";
 function SignUp() {
   return (
     <div>
@@ -7,7 +8,11 @@ function SignUp() {
 
       <div className="container">
         <div className="btn-container">
-          <button className="btn login">Login</button>
+          <a href="/signin">
+            {" "}
+            <button className="btn">Login </button>
+          </a>
+
           <button className="btn action-btn">Sign up</button>
         </div>
         <div className="form">

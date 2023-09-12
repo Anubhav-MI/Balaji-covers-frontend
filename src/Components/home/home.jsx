@@ -11,7 +11,9 @@ function Home() {
       <div className="title-container">Explore our available products</div>
       <div className="btn-container">
         <button className="btn">
-          <a href="/signin">Login</a>
+          <a className="login" href="/signin">
+            Login
+          </a>
         </button>
         <button className="btn whatsapp">
           Need help

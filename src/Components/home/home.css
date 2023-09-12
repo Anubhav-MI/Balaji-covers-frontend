@@ -18,11 +18,14 @@
 .btn {
   color: var(--secondary-color);
   background-color: var(--primary-color);
-  font-size: 24px;
+  font-size: 16px;
 }
 .print {
   display: flex;
   gap: 8px;
   height: 100px;
   width: 95px;
+}
+.login {
+  font-size: 24px;
 }
