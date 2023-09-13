@@ -5,7 +5,7 @@ function Forgotpassword() {
       <p className="top">Home&rarr;Login&rarr;Reset password</p>
       <div class="line"></div>
 
-      <div className="title-container">
+      <div className="title">
         <p>Customer Login</p>
       </div>
       <div>

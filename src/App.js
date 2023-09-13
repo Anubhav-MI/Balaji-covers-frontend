@@ -8,6 +8,7 @@ import Home from "./Components/home/home";
 import Frames from "./Components/home/frames/frames";
 import PhoneCover from "./Components/home/phone cover/phoneCover";
 import Glasscover from "./Components/home/phone cover/3DglassCover/glasscover";
+import CoverImage from "./Components/home/phone cover/3DglassCover/coverImage/coverImage";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -22,6 +23,10 @@ function App() {
           <Route path="/home/frames" element={<Frames />} />
           <Route path="/home/phone-cover" element={<PhoneCover />} />
           <Route path="/home/glass-cover" element={<Glasscover />} />
+          <Route
+            path="/home/glass-cover/cover-image"
+            element={<CoverImage />}
+          />
           <Route path="/forgot-password" element={<Forgotpassword />} />
         </Routes>
         <Footer />
