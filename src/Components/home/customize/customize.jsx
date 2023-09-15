@@ -108,7 +108,7 @@ const Customize = () => {
             <img src={emptystar} height={16} width={16} alt="product" />
 
             <div className="bar-container">
-              <div className="loading-bar" style={{ width: "50%" }}></div>
+              <div className="loading-bar" style={{ width: "30%" }}></div>
             </div>
             <span className="rating-no">10</span>
           </div>
@@ -119,33 +119,35 @@ const Customize = () => {
             <img src={emptystar} height={16} width={16} alt="product" />
             <img src={emptystar} height={16} width={16} alt="product" />
             <div className="bar-container">
-              <div className="loading-bar" style={{ width: "50%" }}></div>
+              <div className="loading-bar" style={{ width: "20%" }}></div>
             </div>
             <span className="rating-no">5</span>
           </div>
           <div className="row-container">
             <img src={star} height={16} width={16} alt="product" />
             <img src={star} height={16} width={16} alt="product" />
-            <img src={star} height={16} width={16} alt="product" />
-            <img src={star} height={16} width={16} alt="product" />
-            <img src={star} height={16} width={16} alt="product" />
+            <img src={emptystar} height={16} width={16} alt="product" />
+            <img src={emptystar} height={16} width={16} alt="product" />
+            <img src={emptystar} height={16} width={16} alt="product" />
             <div className="bar-container">
-              <div className="loading-bar" style={{ width: "50%" }}></div>
+              <div className="loading-bar" style={{ width: "0%" }}></div>
             </div>
-            <span className="rating-no">30</span>
+            <span className="rating-no">0</span>
           </div>
           <div className="row-container">
             <img src={star} height={16} width={16} alt="product" />
-            <img src={star} height={16} width={16} alt="product" />
-            <img src={star} height={16} width={16} alt="product" />
-            <img src={star} height={16} width={16} alt="product" />
-            <img src={star} height={16} width={16} alt="product" />
+            <img src={emptystar} height={16} width={16} alt="product" />
+            <img src={emptystar} height={16} width={16} alt="product" />
+            <img src={emptystar} height={16} width={16} alt="product" />
+            <img src={emptystar} height={16} width={16} alt="product" />
             <div className="bar-container">
-              <div className="loading-bar" style={{ width: "50%" }}></div>
+              <div className="loading-bar" style={{ width: "0%" }}></div>
             </div>
-            <span className="rating-no">30</span>
+            <span className="rating-no">0</span>
           </div>
+          <button className="review action-btn">Right a review</button>
         </div>
+        <div class="line"></div>
       </div>
     </div>
   );
