@@ -5,6 +5,7 @@ import Footer from "./Components/footer/footer";
 import SignIn from "./Components/sign-in/signIn";
 import Forgotpassword from "./Components/forgotPassword/forgotpassword";
 import Home from "./Components/home/home";
+import Customize from "./Components/home/customize/customize";
 import Frames from "./Components/home/frames/frames";
 import PhoneCover from "./Components/home/phone cover/phoneCover";
 import Glasscover from "./Components/home/phone cover/3DglassCover/glasscover";
@@ -22,6 +23,7 @@ function App() {
           <Route path="/signin" element={<SignIn />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/" element={<Home />} />
+          <Route path="/home/customize" element={<Customize />} />
           <Route path="/home/wishlist" element={<Wishlist />} />
           <Route path="/home/bag" element={<Bag />} />
           <Route path="/home/frames" element={<Frames />} />
