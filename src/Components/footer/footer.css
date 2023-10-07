@@ -1,6 +1,6 @@
 .footer {
   margin-top: 72px;
-  width: 360px;
+  width: 400px;
   height: 640px;
   top: 678px;
   border: 1px;
@@ -33,7 +33,7 @@ a {
   text-align: left;
 }
 .line {
-  width: 340px;
+  width: 380px;
   height: 1px;
   margin: 0 5px;
   background-color: #424d51;
@@ -44,3 +44,4 @@ a {
   margin-top: 16px;
   margin-left: 24px;
 }
+

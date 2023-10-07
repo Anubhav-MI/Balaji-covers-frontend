@@ -46,7 +46,7 @@ function Home() {
           <span>Accessories</span>
         </div>
       </div>
-      <div className="container customize-btn">Customize Now</div>
+      <div className="container customize-btn"><a href="/home/customize">Customize Now</a></div>
     </div>
   );
 }

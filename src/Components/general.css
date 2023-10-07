@@ -12,7 +12,7 @@
   font-size: 14px;
 }
 .line {
-  width: 340px;
+  width: 380px;
   height: 1px;
   margin: 0 5px;
   background-color: #424d51;
@@ -52,6 +52,13 @@
   align-items: center;
   justify-content: center;
   gap: 16px;
+}
+.container-close{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:0px;
 }
 .row-container {
   display: flex;

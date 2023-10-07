@@ -1,0 +1,64 @@
+.upload-box2 {
+  width: 144px;
+  height: 154px;
+  border-radius: 8px;
+  border: 1px solid #424d51;
+}
+.upload-box3 {
+    width: 105px;
+    height: 100px;
+    border-radius: 8px;
+    border: 1px solid #424d51;
+  }
+.upload-image2 {
+  background: #98c1d9;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  border: 0px;
+  font-family: Gill Sans MT;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 9px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fffbf1;
+}
+.upload-image3 {
+    background: #98c1d9;
+    width: 25px;
+    height: 25px;
+    border-radius: 1px;
+    border: 0px;
+    font-family: Gill Sans MT;
+    font-size: 6px;
+    font-weight: 400;
+    line-height: 6px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fffbf1;
+  }
+.comment-box {
+  background-color: inherit;
+  padding: 5px;
+  width: 311px;
+  height: 100px;
+  flex-shrink: 0;
+  text-align: left;
+  color: rgba(76, 92, 95, 0.8);
+  font-family: Titillium Web;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 8px;
+  border: 1px solid #4c5c5f;
+}
+.field{
+  background-color: inherit;
+    width: 311px;
+    height: 29px;
+    flex-shrink: 0;
+    border-radius: 8px;
+border: 1px solid #4C5C5F;
+}

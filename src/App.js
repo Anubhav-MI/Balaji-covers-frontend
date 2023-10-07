@@ -11,6 +11,7 @@ import PhoneCover from "./Components/home/phone cover/phoneCover";
 import Glasscover from "./Components/home/phone cover/3DglassCover/glasscover";
 import CoverImage from "./Components/home/phone cover/3DglassCover/coverImage/coverImage";
 import Wishlist from "./Components/home/wishlist/wishlist";
+import Image from "./Components/home/customize/image";
 import Bag from "./Components/home/bag/bag";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -24,6 +25,7 @@ function App() {
           <Route path="/signup" element={<SignUp />} />
           <Route path="/" element={<Home />} />
           <Route path="/home/customize" element={<Customize />} />
+          <Route path="/home/customize/image" element={<Image />} />
           <Route path="/home/wishlist" element={<Wishlist />} />
           <Route path="/home/bag" element={<Bag />} />
           <Route path="/home/frames" element={<Frames />} />
