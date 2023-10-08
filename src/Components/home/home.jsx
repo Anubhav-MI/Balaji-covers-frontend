@@ -46,7 +46,21 @@ function Home() {
           <span>Accessories</span>
         </div>
       </div>
-      <div className="container customize-btn"><a href="/home/customize">Customize Now</a></div>
+      <div className="container customize-btn">
+        <a
+          style={{
+            color: "#FFF",
+            fontfamily: "Gill Sans MT",
+            fontsize: "24px",
+            fontstyle: "normal",
+            fontweight: "400",
+            lineheight: "normal",
+          }}
+          href="/home/customize"
+        >
+          Customize Now
+        </a>
+      </div>
     </div>
   );
 }
