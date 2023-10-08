@@ -111,7 +111,7 @@ const Reviews = () => {
             </div>
             <span className="rating-no">0</span>
           </div>
-          <button className="review action-btn">Right a review</button>
+          <button className="review action-btn">Write a review</button>
         </div>
         <div class="line"></div>
         <div className="container-close">

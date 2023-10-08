@@ -29,7 +29,7 @@ const Customize = () => {
         </div>
         <div className="content">
           <p>Create art from memories!</p>
-          <p>
+          <p style={{ fontWeight: "600" }}>
             Upload image {">"}Artist creation{">"}Approve{">"}
             Receive at your home.
           </p>
@@ -37,7 +37,19 @@ const Customize = () => {
         </div>
         <div className="upload-box container">
           <button className="upload-image">
-            <a href="/home/customize/image">Upload Image</a>
+            <a
+              style={{
+                color: "#FFF",
+                fontfamily: "Gill Sans MT",
+                fontsize: "24px",
+                fontstyle: "normal",
+                fontweight: "400",
+                lineheight: "normal",
+              }}
+              href="/home/customize/image"
+            >
+              Upload Image
+            </a>
           </button>
         </div>
         <Reviews />

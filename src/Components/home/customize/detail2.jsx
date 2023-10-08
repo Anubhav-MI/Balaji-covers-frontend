@@ -193,7 +193,7 @@ const Detail2 = () => {
             }}
             href="/home/customize/image/payment"
           >
-            Next
+            NEXT
           </a>
         </div>
       </div>

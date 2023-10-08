@@ -40,22 +40,19 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 16px;
+  gap: 32px;
   margin-bottom: 48px;
   margin-top: 16px;
 }
 .category-item {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-  align-items: center;
-  justify-content: center;
   width: 160px;
   height: 160px;
-  border-radius: 8px;
-  border: 0.5px;
   box-shadow: 1px 1px 2px 0px #00000033;
   color: var(--secondary-color);
+  border-radius: 8px;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  background: #fffbf1;
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.2);
 }
 .container {
   margin-top: 32px;

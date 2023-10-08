@@ -10,7 +10,7 @@ const Frames = () => {
       <div className="container">
         <div className="content">
           <p>Create art from memories!</p>
-          <p>
+          <p style={{ fontWeight: "600" }}>
             Upload image {">"}Artist creation{">"}Approve{">"}
             Receive at your home.
           </p>

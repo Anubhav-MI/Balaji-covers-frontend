@@ -9,39 +9,46 @@ function Home() {
   return (
     <div className="container">
       <div className="title-container">Explore our available products</div>
-      <div className="btn-container">
+      <div
+        className="btn-container row-container"
+        style={{ justifyContent: "space-around" }}
+      >
         <button className="btn">
           <a className="login" href="/signin">
-            Login
+            Sign up
           </a>
         </button>
-        <button className="btn whatsapp">
-          Need help
+        <div className="row-container">
+          {" "}
+          <button className="whatsapp">Need Help?</button>
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png"
-            height={36}
-            width={36}
+            height={48}
+            width={48}
             alt="whatsapp logo"
           ></img>
-        </button>
+        </div>
       </div>
       <div className="category">
-        <div className="category-item">
+        <div className="category-item container-close">
           <div className="print">
             <img src={print} height={77} width={43} alt="product" />
             <img src={printed} height={77} width={43} alt="product" />
           </div>
           <span>Phone cover</span>
         </div>
-        <div className="category-item">
+        <div className="category-item container-close">
           <img src={frame} height={130} width={130} alt="product" />
-          <span>Frame</span>
+          <a href="/home/frames">
+            {" "}
+            <span>Frame</span>
+          </a>
         </div>
-        <div className="category-item">
+        <div className="category-item container-close">
           <img src={frame} height={130} width={130} alt="product" />
           <span>Tshirt</span>
         </div>
-        <div className="category-item">
+        <div className="category-item container-close">
           <img src={bag} height={100} width={100} alt="product" />
           <span>Accessories</span>
         </div>

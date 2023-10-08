@@ -205,7 +205,7 @@ const Detail1 = () => {
               }}
               href="/home/customize/image/detail2"
             >
-              Next
+              NEXT
             </a>
           </div>
         </div>

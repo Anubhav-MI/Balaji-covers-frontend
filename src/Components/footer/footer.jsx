@@ -1,5 +1,8 @@
 import React from "react";
 import "./footer.css";
+import insta from "../../Icons/instagram.png";
+import facebook from "../../Icons/facebook.png";
+import youtube from "../../Icons/youtube.png";
 function Footer() {
   return (
     <div className="footer">
@@ -35,13 +38,16 @@ function Footer() {
       </div>
       <div className="follow footer-item">
         <p className="item-heading">Follow us</p>
-        <a className="link" href="/">
+        <a className="link row" href="/">
+          <img src={insta} height={12} width={12} alt="product" />
           Instagram
         </a>
-        <a className="link" href="/">
+        <a className="link row" href="/">
+          <img src={facebook} height={12} width={12} alt="product" />
           Facebook
         </a>
-        <a className="link" href="/">
+        <a className="link row" href="/">
+          <img src={youtube} height={12} width={12} alt="product" />
           Youtube
         </a>
       </div>
