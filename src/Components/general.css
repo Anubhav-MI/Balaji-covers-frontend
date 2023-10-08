@@ -27,6 +27,7 @@ body {
   height: 1px;
   margin: 0 5px;
   background-color: #424d51;
+  color: rgba(76, 92, 95, 0.5);
 }
 .title-container {
   margin: 32px 0;

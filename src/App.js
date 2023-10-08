@@ -13,6 +13,8 @@ import CoverImage from "./Components/home/phone cover/3DglassCover/coverImage/co
 import Wishlist from "./Components/home/wishlist/wishlist";
 import Image from "./Components/home/customize/image";
 import Detail1 from "./Components/home/customize/detail1";
+import Detail2 from "./Components/home/customize/detail2";
+import Payment from "./Components/home/customize/payment";
 import Bag from "./Components/home/bag/bag";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -28,6 +30,8 @@ function App() {
           <Route path="/home/customize" element={<Customize />} />
           <Route path="/home/customize/image" element={<Image />} />
           <Route path="/home/customize/image/detail1" element={<Detail1 />} />
+          <Route path="/home/customize/image/detail2" element={<Detail2 />} />
+          <Route path="/home/customize/image/payment" element={<Payment />} />
           <Route path="/home/wishlist" element={<Wishlist />} />
           <Route path="/home/bag" element={<Bag />} />
           <Route path="/home/frames" element={<Frames />} />

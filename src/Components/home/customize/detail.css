@@ -10,6 +10,7 @@
 .gap {
   gap: 40px;
 }
+
 .arrow1 {
   position: absolute;
   top: 65%;
@@ -36,6 +37,17 @@
   font-weight: 400;
   line-height: normal;
 }
+.box2 {
+  width: 125px;
+  height: 44px;
+  color: #4c5c5f;
+  text-align: center;
+  font-family: Titillium Web;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 .detail-container {
   margin-top: 32px;
   display: flex;
@@ -43,4 +55,25 @@
   text-align: left;
   justify-content: center;
   gap: 8px;
+}
+.count {
+  background-color: inherit;
+  border: none;
+}
+.heading {
+  color: #324343;
+  text-align: left;
+  font-family: Titillium Web;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.detail-box {
+  margin-top: 32px;
+  width: 311px;
+  height: 207px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #4c5c5f;
 }

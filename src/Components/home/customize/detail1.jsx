@@ -35,6 +35,18 @@ const Detail1 = () => {
     setname(event.target.value);
   };
 
+  const [quantity, setQuantity] = useState(1); // Initial quantity is set to 1
+
+  const handleIncrement = () => {
+    setQuantity(quantity + 1);
+  };
+
+  const handleDecrement = () => {
+    if (quantity > 1) {
+      setQuantity(quantity - 1);
+    }
+  };
+
   return (
     <div>
       <div className="top">Home&rarr;Customize now&rarr;Image&rarr;Details</div>
@@ -149,6 +161,37 @@ const Detail1 = () => {
               <option value="option2">Option 2</option>
               <option value="option3">Option 3</option>
             </select>{" "}
+          </div>
+          <div className="row-container gap">
+            <div>
+              <label htmlFor="quantity">Quantity</label>
+              <div className="drop-box box2 row-container ">
+                <button className="count" onClick={handleDecrement}>
+                  -
+                </button>
+                <input
+                  style={{
+                    backgroundColor: "inherit",
+                    border: "none",
+                    width: "50px",
+                    alignItems: "center",
+                    justifyContent: "center",
+                  }}
+                  type="number"
+                  id="quantity"
+                  value={quantity}
+                  onChange={(e) => setQuantity(e.target.valueAsNumber)}
+                  min={1} // Set a minimum value, if needed
+                />
+                <button className="count" onClick={handleIncrement}>
+                  +
+                </button>
+              </div>
+            </div>
+            <div>
+              <label htmlFor="quantity">Amount</label>
+              <div className="drop-box box2"></div>
+            </div>
           </div>
           <div className="container customize-btn">
             <a
