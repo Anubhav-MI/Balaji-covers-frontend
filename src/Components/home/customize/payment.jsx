@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+// import { useState } from "react";
 import "../customize/detail.css";
 import detail from "../../../Icons/detail.png";
 import arrow from "../../../Icons/arrow.png";
