@@ -1,0 +1,30 @@
+/* popupMenu.css */
+.popup-menu {
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  background-color: #555;
+  padding: 15px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.popup-menu.open {
+  display: block;
+}
+
+.popup-menu a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.popup-menu button {
+  background-color: #fff;
+  color: #555;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
