@@ -6,11 +6,26 @@ import star from "../../../Icons/Star.png";
 import halfstar from "../../../Icons/halfStar.png";
 import emptystar from "../../../Icons/emptystar.png";
 import user from "../../../Icons/usericon.png";
+import { useState } from "react";
 
 const Reviews = () => {
+  const [showReviewPopup, setShowReviewPopup] = useState(false);
+
+  const openReviewPopup = () => {
+    setShowReviewPopup(true);
+  };
+
+  const closeReviewPopup = () => {
+    setShowReviewPopup(false);
+  };
+
+  const submitReview = () => {
+    // Add logic to submit the review
+    closeReviewPopup();
+  };
   return (
     <div>
-      <div className="row-container">
+      <div className="row-container" style={{ gap: "64px" }}>
         <div className="container">
           <img src={car} height={36} width={36} alt="product" />
           <p className="feature-text">Free Delivery Across INDIA</p>
@@ -111,43 +126,51 @@ const Reviews = () => {
             </div>
             <span className="rating-no">0</span>
           </div>
-          <button className="review action-btn">Write a review</button>
+          <button className="review action-btn" onClick={openReviewPopup}>
+            Write a review
+          </button>
         </div>
-        <div class="line"></div>
-        <div className="container-close">
-          <p className="note">Write a review</p>
-          <p>Rating</p>
-          <div className="row-container">
-            <img src={star} height={16} width={16} alt="product" />
-            <img src={star} height={16} width={16} alt="product" />
-            <img src={star} height={16} width={16} alt="product" />
-            <img src={star} height={16} width={16} alt="product" />
-            <img src={star} height={16} width={16} alt="product" />
+        {showReviewPopup && (
+          <div className="container-close">
+            <div class="line"></div>
+            <p className="note">Write a review</p>
+            <p>Rating</p>
+            <div className="row-container">
+              <img src={star} height={16} width={16} alt="product" />
+              <img src={star} height={16} width={16} alt="product" />
+              <img src={star} height={16} width={16} alt="product" />
+              <img src={star} height={16} width={16} alt="product" />
+              <img src={star} height={16} width={16} alt="product" />
+            </div>
+            <p>Review</p>
+            <input
+              type="text"
+              className="comment-box"
+              placeholder="Write your comments here"
+            />
+            <p>Picture(optional)</p>
+            <div className="upload-box3 container-close">
+              <button className="upload-image3">Upload Image</button>
+            </div>
+            <p>Name(Displayed publicly)</p>
+            <input
+              type="text"
+              className="field"
+              placeholder="Enter your name (public)"
+            />
+            <p>Phone number </p>
+            <input type="text" className="field" placeholder="" />
+            <div className="review-box">
+              {" "}
+              <button className="review btn btn1" onClick={closeReviewPopup}>
+                Cancel review
+              </button>
+              <button className="review action-btn btn1" onClick={submitReview}>
+                Submit review
+              </button>
+            </div>
           </div>
-          <p>Review</p>
-          <input
-            type="text"
-            className="comment-box"
-            placeholder="Write your comments here"
-          />
-          <p>Picture(optional)</p>
-          <div className="upload-box3 container-close">
-            <button className="upload-image3">Upload Image</button>
-          </div>
-          <p>Name(Displayed publicly)</p>
-          <input
-            type="text"
-            className="field"
-            placeholder="Enter your name (public)"
-          />
-          <p>Phone number </p>
-          <input type="text" className="field" placeholder="" />
-          <div className="review-box">
-            {" "}
-            <button className="review btn btn1">Cancel review</button>
-            <button className="review action-btn btn1">Submit review</button>
-          </div>
-        </div>
+        )}
         <div class="line"></div>
         <div className="upload-section">
           <p className="uploads">Customer Photos & Videos</p>

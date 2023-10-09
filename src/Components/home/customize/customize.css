@@ -20,7 +20,8 @@
 }
 .feature-text {
   margin: 0;
-  height: 69px;
+  width: 45px;
+  height: 99px;
   color: var(--secondary-text-color);
   font-family: Titillium Web;
   font-size: 12px;

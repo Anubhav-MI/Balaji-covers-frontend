@@ -12,8 +12,8 @@ const PopupMenu = ({ isOpen, onClose }) => {
         <img src={close} height={32} width={32} alt="product" />
       </button>
       <div className="link-container">
-        <a href="/">Wishlist</a>
-        <a href="/">Bag</a>
+        <a href="/home/wishlist">Wishlist</a>
+        <a href="/home/bag">Bag</a>
         <a href="/">Saved address</a>
         <a href="/">About product</a>
         <a href="/">Review</a>
