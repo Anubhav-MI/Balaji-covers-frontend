@@ -5,7 +5,7 @@ import badge from "../../../Icons/badge.png";
 import star from "../../../Icons/Star.png";
 import halfstar from "../../../Icons/halfStar.png";
 import emptystar from "../../../Icons/emptystar.png";
-import user from "../../../Icons/usericon.png";
+import profile from "../../../Icons/Group 82.png";
 import { useState } from "react";
 
 const Reviews = () => {
@@ -188,8 +188,20 @@ const Reviews = () => {
           <div className="container-close reviews">
             <div className="user-head row-container">
               <div className="icon-box">
-                {" "}
-                <img src={user} height={24} width={24} alt="product" />
+                <img
+                  src={profile}
+                  className="profile-icon"
+                  height={24}
+                  width={24}
+                  alt="product"
+                />
+              </div>
+              <div
+                className="container"
+                style={{ margin: "8px", gap: "0px", alignItems: "flex-start" }}
+              >
+                <span>Anubhav Mishra</span>
+                <span className="verified">Verified</span>
               </div>
             </div>
             <div className="row-container">
