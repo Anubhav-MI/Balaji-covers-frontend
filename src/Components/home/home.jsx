@@ -4,6 +4,7 @@ import frame from "../../Icons/fm.png";
 import print from "../../Icons/print.jpeg";
 import printed from "../../Icons/printeddd.png";
 import bag from "../../Icons/bbg.png";
+import tshirt from "../../Icons/tshirt.png";
 
 function Home() {
   return (
@@ -45,7 +46,7 @@ function Home() {
           </a>
         </div>
         <div className="category-item container-close">
-          <img src={frame} height={130} width={130} alt="product" />
+          <img src={tshirt} height={130} width={130} alt="product" />
           <span>Tshirt</span>
         </div>
         <div className="category-item container-close">
