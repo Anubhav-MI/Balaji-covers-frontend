@@ -5,7 +5,9 @@ const Image = () => {
   return (
     <div>
       {" "}
-      <div className="top">Home&rarr;Customize now&rarr;Image</div>
+      <div className="top">
+        <a href="/">Home</a>&rarr;Customize now&rarr;Image
+      </div>
       <div class="line"></div>
       <div className="container">
         <div className="content">

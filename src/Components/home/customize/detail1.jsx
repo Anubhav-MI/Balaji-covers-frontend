@@ -49,7 +49,9 @@ const Detail1 = () => {
 
   return (
     <div>
-      <div className="top">Home&rarr;Customize now&rarr;Image&rarr;Details</div>
+      <div className="top">
+        <a href="/">Home</a>&rarr;Customize now&rarr;Image&rarr;Details
+      </div>
       <div class="line"></div>
       <div className="container-close">
         <div className="row-container gap">

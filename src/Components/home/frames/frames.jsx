@@ -5,7 +5,9 @@ import shopbag from "../../../Icons/shopping-bag.png";
 const Frames = () => {
   return (
     <div>
-      <div className="top">Home&rarr;Frames</div>
+      <div className="top">
+        <a href="/">Home</a>&rarr;Frames
+      </div>
       <div class="line"></div>
       <div className="container">
         <div className="content">

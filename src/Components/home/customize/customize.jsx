@@ -20,7 +20,9 @@ const Customize = () => {
   // };
   return (
     <div>
-      <div className="top">Home&rarr;Customize now</div>
+      <div className="top">
+        <a href="/">Home</a>&rarr;Customize now
+      </div>
       <div class="line"></div>
       <div className="container">
         <div className="btn-container">
