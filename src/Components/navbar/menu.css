@@ -45,7 +45,6 @@
   cursor: pointer;
 }
 .link-container {
-  margin-top: 32px;
   margin-left: 24px;
   gap: 32px;
   display: flex;

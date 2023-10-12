@@ -1,0 +1,36 @@
+.sidebar {
+  position: fixed;
+  overflow-y: auto;
+  padding-top: 32px;
+  padding-left: 8px;
+  padding-right: 8px;
+  width: 280px;
+  height: 1024px;
+  flex-shrink: 0;
+  background: #424d51;
+  color: #fffbf1;
+  font-family: Titillium Web;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.line {
+  background-color: #fffbf1;
+}
+.logo-container {
+  color: #fffbf1;
+  font-family: Gill Sans MT;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.a {
+  color: #fffbf1;
+  font-family: Titillium Web;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

@@ -5,31 +5,13 @@ import print from "../../Icons/print.jpeg";
 import printed from "../../Icons/printeddd.png";
 import bag from "../../Icons/bbg.png";
 import tshirt from "../../Icons/tshirt.png";
-import logout from "../../Icons/logout.png";
+
 import Footer2 from "../footer/footer2";
+import Sidebar from "../sidebar/sidebar";
 function Home() {
   return (
     <div className="container main">
-      <div className="sidebar">
-        {" "}
-        <div className="link-container">
-          <a href="/home/wishlist">Wishlist</a>
-          <a href="/home/bag">Bag</a>
-          <a href="/">Saved address</a>
-          <a href="/">About product</a>
-          <a href="/">Review</a>
-          <div
-            className="row-container logout-btn"
-            style={{ justifyContent: "left" }}
-          >
-            {" "}
-            <img src={logout} height={32} width={32} alt="product" />
-            <a href="/" style={{ color: "#bf4444" }}>
-              Logout
-            </a>
-          </div>
-        </div>
-      </div>
+      <Sidebar />
       <div className="main-content">
         <div className="title-container">Explore our available products</div>
         <div
@@ -78,7 +60,7 @@ function Home() {
             <span>Accessories</span>
           </div>
         </div>
-        <div className="container customize-btn">
+        <div className="container customize-btn" style={{ marginLeft: "50px" }}>
           <a
             style={{
               color: "#FFF",
