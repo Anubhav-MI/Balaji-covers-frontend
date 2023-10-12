@@ -2,7 +2,7 @@ import "./navbar.css";
 import { useState } from "react";
 import PopupMenu from "./menu";
 import bag from "../../Icons/bag.png";
-import logo from "../../Icons/logo.png";
+import logo from "../../Icons/logobb.png";
 import menu from "../../Icons/menu1.png";
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

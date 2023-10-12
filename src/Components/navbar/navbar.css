@@ -1,3 +1,6 @@
+.navbar {
+  display: none;
+}
 @media (max-width: 400px) {
   body {
     margin: 0;

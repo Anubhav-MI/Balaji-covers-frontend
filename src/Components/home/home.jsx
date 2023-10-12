@@ -6,6 +6,7 @@ import printed from "../../Icons/printeddd.png";
 import bag from "../../Icons/bbg.png";
 import tshirt from "../../Icons/tshirt.png";
 import logout from "../../Icons/logout.png";
+import Footer2 from "../footer/footer2";
 function Home() {
   return (
     <div className="container main">
@@ -29,7 +30,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div>
+      <div className="main-content">
         <div className="title-container">Explore our available products</div>
         <div
           className="btn-container row-container"
@@ -92,6 +93,7 @@ function Home() {
             Customize Now
           </a>
         </div>
+        <Footer2 />
       </div>
     </div>
   );

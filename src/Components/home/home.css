@@ -1,7 +1,21 @@
 .main {
   display: flex;
 }
-
+.main-content {
+  width: 100%;
+}
+.sidebar {
+  width: 280px;
+  height: 1024px;
+  flex-shrink: 0;
+  background: #424d51;
+  color: #fffbf1;
+  font-family: Titillium Web;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 @media (max-width: 400px) {
   .sidebar {
     display: none;
