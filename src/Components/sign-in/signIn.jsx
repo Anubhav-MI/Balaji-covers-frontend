@@ -1,34 +1,19 @@
 import "./signIn.css";
 import "../general.css";
 import Footer2 from "../footer/footer2";
-import logout from "../../Icons/logout.png";
+import dash from "../../Icons/dash.png";
+import Sidebar from "../sidebar/sidebar";
 function SignIn() {
   return (
     <div className="container main">
-      <div className="sidebar">
-        {" "}
-        <div className="link-container">
-          <a href="/home/wishlist">Wishlist</a>
-          <a href="/home/bag">Bag</a>
-          <a href="/">Saved address</a>
-          <a href="/">About product</a>
-          <a href="/">Review</a>
-          <div
-            className="row-container logout-btn"
-            style={{ justifyContent: "left" }}
-          >
-            {" "}
-            <img src={logout} height={32} width={32} alt="product" />
-            <a href="/" style={{ color: "#bf4444" }}>
-              Logout
-            </a>
-          </div>
-        </div>
-      </div>
+      <Sidebar />
       <div className="main-content">
-        <p className="top">Home&rarr;Login</p>
+        <p className="top roww">
+          <a href="/">Home</a>
+          <img src={dash} alt="product" height={12} width={12} /> Login
+        </p>
         <div class="line"></div>
-        <div className="container">
+        <div className="sign">
           <div className="btn-container">
             <button className="btn action-btn">Login</button>
 

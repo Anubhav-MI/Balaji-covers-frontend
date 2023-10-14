@@ -13,7 +13,7 @@ const Sidebar = () => {
       {" "}
       <div className="sidebar column">
         <div className="logo-container column">
-          <div class="line"></div>
+          <div class="line" style={{ backgroundColor: "#fffbf1" }}></div>
           <div
             className="roww"
             style={{ justifyContent: "space-around", height: "70px" }}
@@ -23,7 +23,7 @@ const Sidebar = () => {
             <p>Balaji Cover</p>
           </div>
 
-          <div class="line"></div>
+          <div class="line" style={{ backgroundColor: "#fffbf1" }}></div>
         </div>
         <div
           className="link-container container"
