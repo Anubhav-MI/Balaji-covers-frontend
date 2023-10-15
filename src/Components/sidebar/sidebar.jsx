@@ -1,6 +1,6 @@
 import React from "react";
 import "./sidebar.css";
-import logout from "../../Icons/logout.png";
+// import logout from "../../Icons/logout.png";
 import heart from "../../Icons/heart (1).png";
 import bag from "../../Icons/bag.png";
 import saved from "../../Icons/savedadd.png";
