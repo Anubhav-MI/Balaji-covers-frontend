@@ -165,7 +165,11 @@ const Reviews = () => {
               <button className="review btn btn1" onClick={closeReviewPopup}>
                 Cancel review
               </button>
-              <button className="review action-btn btn1" onClick={submitReview}>
+              <button
+                className="review action-btn btn1"
+                onClick={submitReview}
+                style={{ color: "#fffbf1" }}
+              >
                 Submit review
               </button>
             </div>

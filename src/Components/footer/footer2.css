@@ -51,11 +51,12 @@
     height: 1px;
     margin: 0 5px;
   }
-  .copyright {
+  .copyright2 {
     text-align: left;
     color: #4c5c5f;
     margin-top: 16px;
     margin-left: 24px;
+    margin-bottom: 16px;
   }
   .row {
     display: flex;

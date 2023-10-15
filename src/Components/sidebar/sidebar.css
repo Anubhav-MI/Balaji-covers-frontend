@@ -18,7 +18,7 @@
 .logo-container {
   color: #fffbf1;
   font-family: Gill Sans MT;
-  font-size: 32px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -30,4 +30,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.account2 {
+  font-size: 24px;
+  height: 50px;
 }

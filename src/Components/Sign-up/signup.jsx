@@ -5,7 +5,7 @@ import dash from "../../Icons/dash.png";
 import Sidebar from "../sidebar/sidebar";
 function SignUp() {
   return (
-    <div className="containe main">
+    <div className="main">
       <Sidebar />
       <div className="main-content">
         <p className="top roww">

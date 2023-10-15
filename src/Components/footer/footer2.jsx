@@ -55,7 +55,7 @@ function Footer2() {
           </div>
         </div>
         <div class="line" style={{ backgroundColor: "#424d51" }}></div>
-        <div className="copyright2">Copyrigt &copy; 2023 BalajiCover</div>
+        <div className="copyright2">Copyrigth &copy; 2023 BalajiCover</div>
       </div>
     </div>
   );

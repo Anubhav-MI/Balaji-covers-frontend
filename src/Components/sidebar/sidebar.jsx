@@ -7,6 +7,8 @@ import saved from "../../Icons/savedadd.png";
 import info from "../../Icons/about.png";
 import review from "../../Icons/review.png";
 import logo from "../../Icons/logobb.png";
+import user from "../../Icons/userprofile.png";
+import dropdown from "../../Icons/down.png";
 const Sidebar = () => {
   return (
     <div>
@@ -16,7 +18,11 @@ const Sidebar = () => {
           <div class="line" style={{ backgroundColor: "#fffbf1" }}></div>
           <div
             className="roww"
-            style={{ justifyContent: "space-around", height: "70px" }}
+            style={{
+              justifyContent: "space-around",
+              height: "50px",
+              padding: "0 20px",
+            }}
           >
             {" "}
             <img src={logo} height={35} width={26} alt="product" />
@@ -27,7 +33,7 @@ const Sidebar = () => {
         </div>
         <div
           className="link-container container"
-          style={{ marginTop: "64px", height: "300px" }}
+          style={{ marginTop: "120px", marginBottom: "150px", height: "300px" }}
         >
           <div className="roww">
             {" "}
@@ -65,12 +71,21 @@ const Sidebar = () => {
             </a>
           </div>
         </div>
-        <div className="roww" style={{ marginTop: "72px", marginLeft: "24px" }}>
+        {/* <div className="roww" style={{ marginTop: "72px", marginLeft: "24px" }}>
           {" "}
           <img src={logout} height={32} width={32} alt="product" />
           <a href="/" style={{ color: "#bf4444" }}>
             Logout
           </a>
+        </div> */}
+        <div className="column">
+          <div class="line" style={{ backgroundColor: "#fffbf1" }}></div>
+          <div className=" account2 roww" style={{ marginLeft: "16px" }}>
+            {" "}
+            <img src={user} height={30} width={30} alt="product" />
+            <p>Ritesh Sharma</p>
+            <img src={dropdown} height={16} width={16} alt="product" />
+          </div>
         </div>
       </div>
     </div>

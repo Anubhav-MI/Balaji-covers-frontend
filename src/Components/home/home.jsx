@@ -15,13 +15,10 @@ function Home() {
       <div className="main-content">
         <div className="row2 header">
           <div className="title-container">Explore our available products</div>
-          <div
-            className="btn-container row-container"
-            style={{ justifyContent: "space-around" }}
-          >
+          <div className="btn-container row-container" style={{ gap: "50px" }}>
             <button className="btn">
               <a className="login" href="/signin">
-                Sign up
+                Login
               </a>
             </button>
             <div className="row-container">
@@ -50,7 +47,6 @@ function Home() {
             <div className="category-itemlg category-item container-close">
               <img src={frame} height={130} width={130} alt="product" />
               <a href="/home/frames">
-                {" "}
                 <span>Frame</span>
               </a>
             </div>
@@ -70,7 +66,7 @@ function Home() {
             </p>
             <div
               className="container customize-btn"
-              style={{ marginLeft: "50px" }}
+              style={{ paddingTop: "16px" }}
             >
               <a
                 style={{
@@ -90,7 +86,7 @@ function Home() {
         </div>
         <div
           className="container customize-btn nodisplay"
-          style={{ marginLeft: "60px" }}
+          style={{ marginLeft: "60px", paddingTop: "16px" }}
         >
           <a
             style={{

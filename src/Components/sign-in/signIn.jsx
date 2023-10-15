@@ -5,7 +5,7 @@ import dash from "../../Icons/dash.png";
 import Sidebar from "../sidebar/sidebar";
 function SignIn() {
   return (
-    <div className="container main">
+    <div className="main">
       <Sidebar />
       <div className="main-content">
         <p className="top roww">
