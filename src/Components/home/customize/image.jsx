@@ -1,13 +1,18 @@
 import React from "react";
 import Reviews from "./reviews";
 import "./image.css";
+import dash from "../../../Icons/dash.png";
 const Image = () => {
   return (
     <div>
       {" "}
-      <div className="top">
-        <a href="/">Home</a>&rarr;Customize now&rarr;Image
-      </div>
+      <p className="top roww">
+        <a href="/">Home</a>
+        <img src={dash} alt="product" height={8} width={8} />
+        <a href="/home/customize">Customize now</a>
+        <img src={dash} alt="product" height={8} width={8} />
+        Image
+      </p>
       <div class="line"></div>
       <div className="container">
         <div className="content">

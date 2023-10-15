@@ -10,7 +10,7 @@ function SignIn() {
       <div className="main-content">
         <p className="top roww">
           <a href="/">Home</a>
-          <img src={dash} alt="product" height={12} width={12} /> Login
+          <img src={dash} alt="product" height={8} width={8} /> Login
         </p>
         <div class="line"></div>
         <div className="sign">

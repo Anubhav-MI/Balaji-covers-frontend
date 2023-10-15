@@ -47,7 +47,7 @@ function Home() {
             <div className="category-itemlg category-item container-close">
               <img src={frame} height={130} width={130} alt="product" />
               <a href="/home/frames">
-                <span>Frame</span>
+                <span>Skins</span>
               </a>
             </div>
             <div className="category-itemlg category-item container-close">

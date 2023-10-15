@@ -11,3 +11,9 @@
   letter-spacing: 0em;
   color: var(--secondary-text-color);
 }
+.display-tile {
+  width: 46px;
+  height: 53px;
+  border-radius: 5px;
+  border: 1px solid var(--secondary-text-color);
+}

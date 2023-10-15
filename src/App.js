@@ -9,7 +9,8 @@ import Customize from "./Components/home/customize/customize";
 import Frames from "./Components/home/frames/frames";
 import PhoneCover from "./Components/home/phone cover/phoneCover";
 import Glasscover from "./Components/home/phone cover/3DglassCover/glasscover";
-import CoverImage from "./Components/home/phone cover/3DglassCover/coverImage/coverImage";
+import Softcover from "./Components/home/phone cover/soft sticker cases/softSticker";
+import CoverImage from "./Components/home/phone cover/3DglassCover/coverImage";
 import Wishlist from "./Components/home/wishlist/wishlist";
 import Image from "./Components/home/customize/image";
 import Detail1 from "./Components/home/customize/detail1";
@@ -36,7 +37,11 @@ function App() {
           <Route path="/home/bag" element={<Bag />} />
           <Route path="/home/frames" element={<Frames />} />
           <Route path="/home/phone-cover" element={<PhoneCover />} />
-          <Route path="/home/glass-cover" element={<Glasscover />} />
+          <Route
+            path="/home/phone-cover/glass-cover"
+            element={<Glasscover />}
+          />
+          <Route path="/home/phone-cover/soft-cover" element={<Softcover />} />
           <Route
             path="/home/glass-cover/cover-image"
             element={<CoverImage />}

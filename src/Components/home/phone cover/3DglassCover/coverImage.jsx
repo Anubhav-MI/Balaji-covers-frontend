@@ -1,16 +1,23 @@
 import "./coverImage.css";
-import Phonecover from "../../../../../Icons/phone-cover.png";
-import like from "../../../../../Icons/love.png";
-import share from "../../../../../Icons/share.png";
-import shopbag from "../../../../../Icons/shopping-bag.png";
+import Phonecover from "../../../../Icons/phone-cover.png";
+import like from "../../../../Icons/love.png";
+import share from "../../../../Icons/share.png";
+import shopbag from "../../../../Icons/shopping-bag.png";
+import dash from "../../../../Icons/dash.png";
 const CoverImage = () => {
   return (
     <div>
-      <div className="top">
-        Home&rarr;Phone cover&rarr;3D Glass Cover&rarr;Cover Image
-      </div>
+      <p className="top roww">
+        <a href="/">Home</a>
+        <img src={dash} alt="product" height={8} width={8} />
+        <a href="/home/phone-cover">Phone cover</a>
+        <img src={dash} alt="product" height={8} width={8} />
+        <a href="/home/phone-cover/glass-cover">3D Glass Covers</a>
+        <img src={dash} alt="product" height={8} width={8} />
+        Cover Image
+      </p>
       <div class="line"></div>
-      <div className="container">
+      <div className="container" style={{ marginTop: "32px" }}>
         <div className="coverImage">
           <img src={Phonecover} height={324} width={283} alt="product" />
           <img
@@ -29,7 +36,11 @@ const CoverImage = () => {
           />
         </div>
         <div className="row-container">
-          <button className="buy action-btn">Buy now</button>
+          <button className="buy-btn action-btn">
+            <a href="/home/customize/image" style={{ color: "#fffbf1" }}>
+              Buy now
+            </a>
+          </button>
           <img
             className="icon"
             src={shopbag}
@@ -48,7 +59,11 @@ const CoverImage = () => {
               alt="product"
             />
             <div className="callToAction">
-              <button className="buy-btn action-btn">Buy now</button>
+              <button className="buy-btn action-btn">
+                <a href="/home/customize/image" style={{ color: "#fffbf1" }}>
+                  Buy now
+                </a>
+              </button>
               <img
                 className="icon"
                 src={shopbag}
@@ -67,7 +82,11 @@ const CoverImage = () => {
               alt="product"
             />
             <div className="callToAction">
-              <button className="buy-btn action-btn">Buy now</button>
+              <button className="buy-btn action-btn">
+                <a href="/home/customize/image" style={{ color: "#fffbf1" }}>
+                  Buy now
+                </a>
+              </button>
               <img
                 className="icon"
                 src={shopbag}

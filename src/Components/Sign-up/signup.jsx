@@ -10,7 +10,7 @@ function SignUp() {
       <div className="main-content">
         <p className="top roww">
           <a href="/">Home</a>
-          <img src={dash} alt="product" height={12} width={12} />
+          <img src={dash} alt="product" height={8} width={8} />
           Sign up
         </p>
         <div class="line"></div>

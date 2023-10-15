@@ -6,18 +6,28 @@ import arrow from "../../../Icons/arrow.png";
 import cart from "../../../Icons/shopping-cart.png";
 import profile from "../../../Icons/Group 82.png";
 import scan from "../../../Icons/scan.png";
+import dash from "../../../Icons/dash.png";
 
 const Payment = () => {
   return (
     <div>
-      <div className="top">Home&rarr;Customize now&rarr;Image&rarr;Details</div>
+      <p className="top roww">
+        <a href="/">Home</a>
+        <img src={dash} alt="product" height={8} width={8} />
+        <a href="/home/customize">Customize now</a>
+        <img src={dash} alt="product" height={8} width={8} />
+        <a href="/home/customize/image">Image</a>
+        <img src={dash} alt="product" height={8} width={8} />
+        Details
+      </p>
       <div class="line"></div>
 
-      <div className="container-close">
+      <div className="container-close" style={{ marginTop: "20px" }}>
         <div className="row-container gap">
           <div className="container icon-div">
-            {" "}
-            <img src={detail} height={24} width={24} alt="product" />
+            <div>
+              <img src={detail} height={24} width={24} alt="product" />
+            </div>
           </div>
           <img
             className="arrow1"
@@ -28,7 +38,7 @@ const Payment = () => {
           />
           <div className="container icon-div">
             {" "}
-            <img src={profile} height={24} width={24} alt="product" />
+            <img src={profile} height={36} width={36} alt="product" />
           </div>
           <img
             className="arrow2"

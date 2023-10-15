@@ -1,5 +1,5 @@
 import "./customize.css";
-
+import dash from "../../../Icons/dash.png";
 import Reviews from "./reviews";
 
 const Customize = () => {
@@ -20,9 +20,11 @@ const Customize = () => {
   // };
   return (
     <div>
-      <div className="top">
-        <a href="/">Home</a>&rarr;Customize now
-      </div>
+      <p className="top roww">
+        <a href="/">Home</a>
+        <img src={dash} alt="product" height={8} width={8} />
+        Customize now
+      </p>
       <div class="line"></div>
       <div className="container">
         <div className="btn-container">

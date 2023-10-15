@@ -14,9 +14,9 @@ const Glasscover = () => {
         3D Glass Covers
       </p>
       <div class="line"></div>
-      <div className="container" style={{ marginTop: "32px" }}>
+      <div className="container">
         {" "}
-        <div className="title-container">Some examples of 3D glass covers</div>
+        <div className="title-container">Some examples of cases for lovers</div>
         <div className="display row-container">
           <div className="display-tile">
             <a href="/home/glass-cover/cover-image">A</a>
