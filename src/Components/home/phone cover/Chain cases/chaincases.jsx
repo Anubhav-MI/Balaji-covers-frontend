@@ -3,7 +3,7 @@ import Phonecover from "../../../../Icons/phone-cover.png";
 import Phonecover2 from "../../../../Icons/phone-cover2.png";
 import shopbag from "../../../../Icons/shopping-bag.png";
 import dash from "../../../../Icons/dash.png";
-const Forlovers = () => {
+const Chaincases = () => {
   return (
     <div>
       <p className="top roww">
@@ -11,12 +11,12 @@ const Forlovers = () => {
         <img src={dash} alt="product" height={8} width={8} />
         <a href="/home/phone-cover">Phone cover</a>
         <img src={dash} alt="product" height={8} width={8} />
-        3D Glass Covers
+        Chain cases
       </p>
       <div class="line"></div>
       <div className="container">
         {" "}
-        <div className="title-container">Some examples of cases for lovers</div>
+        <div className="title-container">Some examples of Chain cases</div>
         <div className="display row-container">
           <div className="display-tile">
             <a href="/home/glass-cover/cover-image">A</a>
@@ -86,4 +86,4 @@ const Forlovers = () => {
   );
 };
 
-export default Forlovers;
+export default Chaincases;

@@ -18,11 +18,22 @@ const PhoneCover = () => {
           {" "}
           <a href="/home/phone-cover/soft-cover">Soft Sticker cases</a>
         </div>
-        <div className="coverCategory row-container">For lovers</div>
-        <div className="coverCategory row-container">Chain Cases</div>
-        <div className="coverCategory row-container">Polaroid cases</div>
-        <div className="coverCategory row-container">Aesthetic cases</div>
-        <div className="coverCategory row-container">Anime cases</div>
+        <div className="coverCategory row-container">
+          {" "}
+          <a href="/home/phone-cover/forlovers">For lovers</a>
+        </div>
+        <div className="coverCategory row-container">
+          <a href="/home/phone-cover/chain-cases">Chain Cases</a>
+        </div>
+        <div className="coverCategory row-container">
+          <a href="/home/phone-cover/polaroid">Polaroid cases</a>
+        </div>
+        <div className="coverCategory row-container">
+          <a href="/home/phone-cover/aesthetic">Aesthetic cases</a>
+        </div>
+        <div className="coverCategory row-container">
+          <a href="/home/phone-cover/anime">Anime cases</a>
+        </div>
         <div className="container customize-btn">
           <a href="/home/customize" style={{ color: "#fffbf1" }}>
             Customize Now

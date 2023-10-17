@@ -1,9 +1,10 @@
-import "../../phone cover/phoneCover.css";
+import "./coverImage.css";
 import Phonecover from "../../../../Icons/phone-cover.png";
-import Phonecover2 from "../../../../Icons/phone-cover2.png";
+import like from "../../../../Icons/love.png";
+import share from "../../../../Icons/share.png";
 import shopbag from "../../../../Icons/shopping-bag.png";
 import dash from "../../../../Icons/dash.png";
-const Forlovers = () => {
+const CoverImage = () => {
   return (
     <div>
       <p className="top roww">
@@ -11,28 +12,43 @@ const Forlovers = () => {
         <img src={dash} alt="product" height={8} width={8} />
         <a href="/home/phone-cover">Phone cover</a>
         <img src={dash} alt="product" height={8} width={8} />
-        3D Glass Covers
+        <a href="/home/phone-cover/glass-cover">3D Glass Covers</a>
+        <img src={dash} alt="product" height={8} width={8} />
+        Cover Image
       </p>
       <div class="line"></div>
-      <div className="container">
-        {" "}
-        <div className="title-container">Some examples of cases for lovers</div>
-        <div className="display row-container">
-          <div className="display-tile">
-            <a href="/home/glass-cover/cover-image">A</a>
-          </div>
-          <div className="display-tile">
-            <a href="/home/glass-cover/cover-image">A</a>
-          </div>
-          <div className="display-tile">
-            <a href="/home/glass-cover/cover-image">A</a>
-          </div>
-          <div className="display-tile">
-            <a href="/home/glass-cover/cover-image">A</a>
-          </div>
+      <div className="container" style={{ marginTop: "32px" }}>
+        <div className="coverImage">
+          <img src={Phonecover} height={324} width={283} alt="product" />
+          <img
+            className="icon-1"
+            src={like}
+            height={24}
+            width={24}
+            alt="product"
+          />
+          <img
+            className="icon-2"
+            src={share}
+            height={24}
+            width={24}
+            alt="product"
+          />
         </div>
-        <div class="line"></div>
-        <p>Buy one cover for 399/-. Buy two save 20%</p>
+        <div className="row-container">
+          <button className="buy-btn action-btn">
+            <a href="/home/customize/image" style={{ color: "#fffbf1" }}>
+              Buy now
+            </a>
+          </button>
+          <img
+            className="icon"
+            src={shopbag}
+            height={36}
+            width={36}
+            alt="product"
+          />
+        </div>
         <div className="category">
           <div className="container">
             <img
@@ -60,7 +76,7 @@ const Forlovers = () => {
           <div className="container">
             <img
               className="item-card"
-              src={Phonecover2}
+              src={Phonecover}
               height={175}
               width={150}
               alt="product"
@@ -86,4 +102,4 @@ const Forlovers = () => {
   );
 };
 
-export default Forlovers;
+export default CoverImage;

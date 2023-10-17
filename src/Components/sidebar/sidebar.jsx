@@ -78,7 +78,7 @@ const Sidebar = () => {
             Logout
           </a>
         </div> */}
-        <div className="column">
+        <div className="column" style={{ marginTop: "150px" }}>
           <div class="line" style={{ backgroundColor: "#fffbf1" }}></div>
           <div className=" account2 roww" style={{ marginLeft: "16px" }}>
             {" "}

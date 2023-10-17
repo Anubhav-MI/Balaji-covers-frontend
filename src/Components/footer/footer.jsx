@@ -15,22 +15,22 @@ function Footer() {
           <a className="link" href="/">
             Contact us
           </a>
-          <a className="link" href="/">
+          <a className="link" href="/privacy">
             Privacy Policy
           </a>
-          <a className="link" href="/">
+          <a className="link" href="/termsandcondition">
             Terms and conditions
           </a>
-          <a className="link" href="/">
+          <a className="link" href="/FAQ">
             FAQ
           </a>
         </div>
         <div className="account footer-item">
           <p className="item-heading">My Account</p>
-          <a className="link" href="/">
+          <a className="link" href="/signin">
             Login
           </a>
-          <a className="link" href="/">
+          <a className="link" href="/signup">
             Register
           </a>
           <a className="link" href="/">

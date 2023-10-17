@@ -7,9 +7,11 @@
 }
 body {
   overflow-x: hidden;
+  color: #4c5c5f;
 }
 a {
   color: #424d51;
+  text-decoration: none;
 }
 .line {
   width: 100%;
