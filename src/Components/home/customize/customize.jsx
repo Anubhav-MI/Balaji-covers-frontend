@@ -30,6 +30,7 @@ const Customize = () => {
         <div className="btn-container">
           <button className="btn action-btn">Cover</button>
           <button className="btn signup">Frame</button>
+          <button className="btn signup">Skin</button>
         </div>
         <div className="content">
           <p>Create art from memories!</p>
