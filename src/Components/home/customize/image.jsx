@@ -14,7 +14,7 @@ const Image = () => {
         Image
       </p>
       <div class="line"></div>
-      <div className="container">
+      <div className="container response">
         <div className="content">
           <p>Enhance your style with a pair of cases and enjoy 20% savings.</p>
         </div>

@@ -30,7 +30,15 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div
+        className="App"
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "baseline",
+        }}
+      >
         <Navbar />
         <Routes>
           <Route path="/signin" element={<SignIn />} />

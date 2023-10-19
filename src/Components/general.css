@@ -50,7 +50,7 @@ a {
   gap: 32px;
   margin-bottom: 48px;
   margin-top: 16px;
-  padding-left: 24px;
+  /* padding-left: 24px; */
 }
 
 .customize-btn {
@@ -145,3 +145,43 @@ a {
     box-shadow: 1px 1px 2px 0px #00000033;
   }
 }
+/* }
+
+@media (max-width: 390px) and (min-width: 380px) {
+  .response {
+    padding-left: 10px;
+  }
+}
+@media (max-width: 370px) and (min-width: 360px) {
+  .response {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 380px) and (min-width: 370px) {
+  .response {
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 360px) and (min-width: 330px) {
+  .response {
+    padding-left: 60px;
+  }
+}
+
+@media (max-width: 330px) and (min-width: 310px) {
+  .response {
+    padding-left: 70px;
+  }
+}
+@media (max-width: 310px) and (min-width: 280px) {
+  .response {
+    padding-left: 100px;
+  }
+}
+@media (max-width: 280px) {
+  .response {
+    padding-left: 120px;
+  }
+} */

@@ -25,7 +25,7 @@ const Reviews = () => {
   };
   return (
     <div>
-      <div className="row-container" style={{ gap: "64px" }}>
+      <div className="row-container response" style={{ gap: "64px" }}>
         <div className="container">
           <img src={car} height={36} width={36} alt="product" />
           <p className="feature-text">Free Delivery Across INDIA</p>
@@ -48,7 +48,7 @@ const Reviews = () => {
         </div>
         <div class="line"></div>
       </div>
-      <div className="container product-des">
+      <div className="container product-des response">
         <p className="message">
           Introducing Balajicover's custom phone covers! Choose from Glass,
           Silicon, Hard, or Polaroid covers, all printed with laser precision.

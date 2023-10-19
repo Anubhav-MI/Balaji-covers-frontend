@@ -22,7 +22,7 @@ function SignIn() {
               <button className="btn signup">Sign up </button>
             </a>
           </div>
-          <div className="form">
+          <div className="form response">
             <input
               className="form-item"
               type="email"
@@ -39,7 +39,7 @@ function SignIn() {
             <button className="form-item action-btn create-btn">LOGIN</button>
           </div>
 
-          <div className="auth">
+          <div className="auth response">
             <p>Or Login using</p>
             <div className="auth-icon">
               <button className="auth-button">

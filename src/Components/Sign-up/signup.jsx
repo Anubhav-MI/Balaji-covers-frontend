@@ -15,7 +15,7 @@ function SignUp() {
         </p>
         <div class="line"></div>
         <div className="container sign">
-          <div className="btn-container">
+          <div className="btn-container response">
             <a href="/signin">
               {" "}
               <button className="btn">Login </button>
@@ -23,7 +23,7 @@ function SignUp() {
 
             <button className="btn action-btn">Sign up</button>
           </div>
-          <div className="form">
+          <div className="form response">
             <input
               className="form-item"
               type="email"
@@ -37,7 +37,7 @@ function SignUp() {
             <button className="form-item action-btn create-btn">CREATE</button>
           </div>
 
-          <div className="auth">
+          <div className="auth response">
             <p>Or Sign up using</p>
             <div className="auth-icon">
               <button className="auth-button">

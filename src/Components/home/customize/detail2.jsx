@@ -66,7 +66,7 @@ const Detail2 = () => {
       </p>
       <div class="line"></div>
 
-      <div className="container-close" style={{ marginTop: "20px" }}>
+      <div className="container-close response" style={{ marginTop: "20px" }}>
         <div className="row-container gap">
           <div className="container icon-div">
             {" "}

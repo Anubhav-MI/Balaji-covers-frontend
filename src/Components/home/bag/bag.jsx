@@ -7,7 +7,7 @@ const Bag = () => {
     <div>
       <div className="top">Home&rarr;Bag</div>
       <div class="line"></div>
-      <div className="category">
+      <div className="category response">
         <div className="container">
           <img
             className="item-card"

@@ -5,7 +5,7 @@ import facebook from "../../Icons/facebook.png";
 import youtube from "../../Icons/youtube.png";
 function Footer2() {
   return (
-    <div>
+    <div style={{ width: "100%" }}>
       <div className="footer-container">
         <div className="footer2">
           <div className="pages footer-item">

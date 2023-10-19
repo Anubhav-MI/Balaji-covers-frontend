@@ -60,7 +60,7 @@ const Detail1 = () => {
         Details
       </p>
       <div class="line"></div>
-      <div className="container-close" style={{ marginTop: "20px" }}>
+      <div className="container-close response" style={{ marginTop: "20px" }}>
         <div className="row-container gap">
           <div className="container icon-div">
             {" "}
@@ -91,6 +91,20 @@ const Detail1 = () => {
         </div>
         <div className="container">
           {" "}
+          <div className="detail-container">
+            <label htmlFor="dropdown">Select cover type*</label>
+            <select
+              className="drop-box"
+              id="dropdown"
+              // value={selectedbrand1}
+              // onChange={handleSelectbrand1}
+            >
+              <option value=""> Please Choose</option>
+              <option value="option1">Option 1</option>
+              <option value="option2">Option 2</option>
+              <option value="option3">Option 3</option>
+            </select>{" "}
+          </div>
           <div className="detail-container">
             <label htmlFor="dropdown">Choose Your Phone Brand*</label>
             <select

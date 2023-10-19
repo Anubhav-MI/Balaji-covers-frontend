@@ -15,7 +15,7 @@ function Forgotpassword() {
           Reset Password
         </p>
         <div class="line"></div>
-        <div className="container margin">
+        <div className="container margin response">
           <div className="title">
             <p>Customer Login</p>
           </div>

@@ -26,7 +26,7 @@ const Customize = () => {
         Customize now
       </p>
       <div class="line"></div>
-      <div className="container">
+      <div className="container response">
         <div className="btn-container">
           <button className="btn action-btn">Cover</button>
           <button className="btn signup">Frame</button>
