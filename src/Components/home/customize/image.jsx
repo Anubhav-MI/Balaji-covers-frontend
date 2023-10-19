@@ -15,7 +15,7 @@ const Image = () => {
       </p>
       <div class="line"></div>
       <div className="container response">
-        <div className="content">
+        <div className="content" style={{ textAlign: "center" }}>
           <p>Enhance your style with a pair of cases and enjoy 20% savings.</p>
         </div>
 
@@ -28,8 +28,9 @@ const Image = () => {
           </div>
         </div>
 
-        <div className="container customize-btn">
+        <div>
           <a
+            className="container customize-btn"
             style={{
               color: "#FFF",
               fontfamily: "Gill Sans MT",

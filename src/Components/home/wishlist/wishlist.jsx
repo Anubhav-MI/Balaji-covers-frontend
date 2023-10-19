@@ -16,7 +16,7 @@ const Wishlist = () => {
             alt="product"
           />
           <div className="callToAction">
-            <button className="buy-btn action-btn">Buy now</button>
+            <button className="buy-btn action-btn">Select Model</button>
             <img
               className="icon"
               src={shopbag}
@@ -35,7 +35,7 @@ const Wishlist = () => {
             alt="product"
           />
           <div className="callToAction">
-            <button className="buy-btn action-btn">Buy now</button>
+            <button className="buy-btn action-btn">Select Model</button>
             <img
               className="icon"
               src={shopbag}
@@ -54,7 +54,7 @@ const Wishlist = () => {
             alt="product"
           />
           <div className="callToAction">
-            <button className="buy-btn action-btn">Buy now</button>
+            <button className="buy-btn action-btn">Select Model</button>
             <img
               className="icon"
               src={shopbag}
@@ -73,7 +73,7 @@ const Wishlist = () => {
             alt="product"
           />
           <div className="callToAction">
-            <button className="buy-btn action-btn">Buy now</button>
+            <button className="buy-btn action-btn">Select Model</button>
             <img
               className="icon"
               src={shopbag}

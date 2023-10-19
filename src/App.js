@@ -24,6 +24,7 @@ import Image from "./Components/home/customize/image";
 import Detail1 from "./Components/home/customize/detail1";
 import Detail2 from "./Components/home/customize/detail2";
 import Payment from "./Components/home/customize/payment";
+import Paymentdone from "./Components/home/customize/paymentdone";
 import Bag from "./Components/home/bag/bag";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -52,6 +53,10 @@ function App() {
           <Route path="/home/customize/image/detail1" element={<Detail1 />} />
           <Route path="/home/customize/image/detail2" element={<Detail2 />} />
           <Route path="/home/customize/image/payment" element={<Payment />} />
+          <Route
+            path="/home/customize/image/payment-done"
+            element={<Paymentdone />}
+          />
           <Route path="/home/wishlist" element={<Wishlist />} />
           <Route path="/home/bag" element={<Bag />} />
           <Route path="/home/frames" element={<Frames />} />

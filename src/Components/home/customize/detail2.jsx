@@ -190,8 +190,9 @@ const Detail2 = () => {
             Save this information for next time
           </label>
         </div>
-        <div className="container customize-btn">
+        <div>
           <a
+            className="container customize-btn"
             style={{
               color: "#FFF",
               fontfamily: "Gill Sans MT",

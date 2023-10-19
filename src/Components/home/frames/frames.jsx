@@ -26,7 +26,7 @@ const Frames = () => {
           <div className="product-cards container">
             <img src={frame} height={175} width={150} alt="product" />
             <div className="callToAction">
-              <button className="buy-btn action-btn">Buy now</button>
+              <button className="buy-btn action-btn">Select Model</button>
               <img
                 className="icon"
                 src={shopbag}
@@ -39,7 +39,7 @@ const Frames = () => {
           <div className="product-cards container">
             <img src={frame} height={175} width={150} alt="product" />
             <div className="callToAction">
-              <button className="buy-btn action-btn">Buy now</button>
+              <button className="buy-btn action-btn">Select Model</button>
               <img
                 className="icon"
                 src={shopbag}
@@ -52,7 +52,7 @@ const Frames = () => {
           <div className="product-cards container">
             <img src={frame} height={175} width={150} alt="product" />
             <div className="callToAction">
-              <button className="buy-btn action-btn">Buy now</button>
+              <button className="buy-btn action-btn">Select Model</button>
               <img
                 className="icon"
                 src={shopbag}
@@ -65,7 +65,7 @@ const Frames = () => {
           <div className="product-cards container">
             <img src={frame} height={175} width={150} alt="product" />
             <div className="callToAction">
-              <button className="buy-btn action-btn">Buy now</button>
+              <button className="buy-btn action-btn">Select Model</button>
               <img
                 className="icon"
                 src={shopbag}

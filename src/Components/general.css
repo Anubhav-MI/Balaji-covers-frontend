@@ -70,10 +70,11 @@ a {
 }
 
 .title-container {
-  margin: 32px 0;
+  margin: 32px;
   font-size: 36px;
-  text-align: center;
   color: var(--secondary-text-color);
+  position: relative;
+  z-index: 999;
 }
 
 .container-close {

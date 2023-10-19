@@ -8,7 +8,7 @@ import profile from "../../../Icons/Group 82.png";
 import scan from "../../../Icons/scan.png";
 import dash from "../../../Icons/dash.png";
 
-const Payment = () => {
+const Paymentdone = () => {
   return (
     <div>
       <p className="top roww">
@@ -64,14 +64,14 @@ const Payment = () => {
             <p>Show order summary </p>
           </div>
 
-          <span>199</span>
+          <span>Rs 199</span>
         </div>
         <div class="line"></div>
-
-        <div className="detail-box"></div>
-        <h1 className="heading" style={{ marginTop: "50px" }}>
-          Payment
-        </h1>
+        <h1 className="heading">Payment Received</h1>
+        <p className="payment" style={{ textAlign: "center" }}>
+          “Your order is processing. Expect tracking details on your WhatsApp in
+          2-3 days. Thank you for choosing us!"
+        </p>
         <div>
           <a
             className="container customize-btn"
@@ -83,9 +83,9 @@ const Payment = () => {
               fontweight: "400",
               lineheight: "normal",
             }}
-            href="/home/customize/image/payment-done"
+            href="/home/customize/image/payment"
           >
-            PAY NOW
+            HOME
           </a>
         </div>
       </div>
@@ -93,4 +93,4 @@ const Payment = () => {
   );
 };
 
-export default Payment;
+export default Paymentdone;

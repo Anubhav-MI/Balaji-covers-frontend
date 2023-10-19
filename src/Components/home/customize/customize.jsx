@@ -32,7 +32,7 @@ const Customize = () => {
           <button className="btn signup">Frame</button>
           <button className="btn signup">Skin</button>
         </div>
-        <div className="content">
+        <div className="content" style={{ textAlign: "center" }}>
           <p>Create art from memories!</p>
           <p style={{ fontWeight: "600" }}>
             Upload image {">"}Artist creation{">"}Approve{">"}

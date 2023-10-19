@@ -38,7 +38,7 @@ const CoverImage = () => {
         <div className="row-container">
           <button className="buy-btn action-btn">
             <a href="/home/customize/image" style={{ color: "#fffbf1" }}>
-              Buy now
+              Select Model
             </a>
           </button>
           <img
@@ -61,7 +61,7 @@ const CoverImage = () => {
             <div className="callToAction">
               <button className="buy-btn action-btn">
                 <a href="/home/customize/image" style={{ color: "#fffbf1" }}>
-                  Buy now
+                  Select Model
                 </a>
               </button>
               <img
@@ -84,7 +84,7 @@ const CoverImage = () => {
             <div className="callToAction">
               <button className="buy-btn action-btn">
                 <a href="/home/customize/image" style={{ color: "#fffbf1" }}>
-                  Buy now
+                  Select Model
                 </a>
               </button>
               <img

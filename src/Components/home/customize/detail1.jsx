@@ -216,8 +216,9 @@ const Detail1 = () => {
               <div className="drop-box box2"></div>
             </div>
           </div>
-          <div className="container customize-btn">
+          <div>
             <a
+              className="container customize-btn"
               style={{
                 color: "#FFF",
                 fontfamily: "Gill Sans MT",

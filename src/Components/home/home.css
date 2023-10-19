@@ -70,7 +70,9 @@
 }
 @media (max-width: 400px) {
   .nodisplay {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .nodisplay2 {
     display: none;
@@ -79,7 +81,7 @@
     display: none;
   }
   .btn-container {
-    margin: 72px 8px;
+    margin: 40px 8px;
     height: 100px;
     width: 390px;
     justify-content: space-around;

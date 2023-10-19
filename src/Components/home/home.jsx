@@ -30,11 +30,10 @@ function Home() {
               className="btn-container row-container"
               style={{ gap: "50px" }}
             >
-              <button className="btn">
-                <a className="login" href="/signin">
-                  Login
-                </a>
-              </button>
+              <a className="login" href="/signin">
+                <button className="btn"> Login </button>
+              </a>
+
               <div className="row-container">
                 {" "}
                 <button className="whatsapp">Need Help?</button>
@@ -99,11 +98,9 @@ function Home() {
               </div>
             </div>
           </div>
-          <div
-            className="container customize-btn nodisplay"
-            style={{ paddingTop: "16px" }}
-          >
+          <div>
             <a
+              className="container customize-btn nodisplay"
               style={{
                 color: "#FFF",
                 fontfamily: "Gill Sans MT",
