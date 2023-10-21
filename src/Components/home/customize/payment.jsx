@@ -19,10 +19,9 @@ const Payment = () => {
         <img src={dash} alt="product" height={8} width={8} />
         <a href="/home/customize/image">Image</a>
         <img src={dash} alt="product" height={8} width={8} />
-        Details
+        Detail
       </p>
       <div class="line"></div>
-
       <div className="container-close response" style={{ marginTop: "20px" }}>
         <div className="row-container gap">
           <div className="container icon-div">
