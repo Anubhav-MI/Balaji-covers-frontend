@@ -5,6 +5,9 @@ import print from "../../Icons/print.jpeg";
 import printed from "../../Icons/printeddd.png";
 import bag from "../../Icons/bbg.png";
 import tshirt from "../../Icons/tshirt.png";
+import gif from "../../Icons/phone cover.gif";
+import gif2 from "../../Icons/skin.gif";
+import gif3 from "../../Icons/accessories.gif";
 
 import Footer2 from "../footer/footer2";
 import Sidebar from "../sidebar/sidebar";
@@ -48,28 +51,64 @@ function Home() {
           </div>
           <div className="row2 center">
             <div className="category">
-              <div className="category-itemlg category-item container-close">
-                <div className="print">
-                  <img src={print} height={77} width={43} alt="product" />
-                  <img src={printed} height={77} width={43} alt="product" />
-                </div>
-                <span>
-                  <a href="/home/phone-cover">Phone cover</a>
+              <div className="container-close">
+                <a href="/home/phone-cover">
+                  <div>
+                    {/* <img src={frame} height={130} width={130} alt="product" /> */}
+                    <img
+                      className="category-itemlg category-item container-close"
+                      src={gif}
+                      height={160}
+                      width={160}
+                      alt="my-gif"
+                    />
+                  </div>
+                </a>
+                <span style={{ marginTop: "10px", fontsize: "18px" }}>
+                  Phone cover
                 </span>
               </div>
-              <div className="category-itemlg category-item container-close">
-                <img src={frame} height={130} width={130} alt="product" />
-                <a href="/home/frames">
-                  <span>Skins</span>
+              <div className="container-close">
+                <a href="/home/skins">
+                  <img
+                    className="category-itemlg category-item container-close"
+                    src={gif2}
+                    height={120}
+                    width={100}
+                    alt="my-gif"
+                  />
                 </a>
+                <span style={{ marginTop: "10px", fontsize: "18px" }}>
+                  Skins
+                </span>
               </div>
-              <div className="category-itemlg category-item container-close">
-                <img src={tshirt} className="image" alt="product" />
-                <span>Tshirt</span>
+              <div className="container-close">
+                <a href="/home/Tshirt">
+                  <img
+                    className="category-itemlg category-item container-close"
+                    src={tshirt}
+                    alt="product"
+                  />
+                </a>
+                <span style={{ marginTop: "10px", fontsize: "18px" }}>
+                  {" "}
+                  Tshirt
+                </span>
               </div>
-              <div className="category-itemlg category-item container-close">
-                <img src={bag} height={100} width={100} alt="product" />
-                <span>Accessories</span>
+              <div className="container-close">
+                <a href="/home/">
+                  {/* <img src={frame} height={130} width={130} alt="product" /> */}
+                  <img
+                    className="category-itemlg category-item container-close"
+                    src={gif3}
+                    height={120}
+                    width={120}
+                    alt="my-gif"
+                  />
+                </a>
+                <span style={{ marginTop: "10px", fontsize: "18px" }}>
+                  Accessories
+                </span>
               </div>
             </div>
             <div className="custom nodisplay2">

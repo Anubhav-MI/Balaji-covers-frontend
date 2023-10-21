@@ -70,11 +70,9 @@ a {
 }
 
 .title-container {
-  margin: 32px;
+  margin: 45px 32px;
   font-size: 36px;
   color: var(--secondary-text-color);
-  position: relative;
-  z-index: 999;
 }
 
 .container-close {

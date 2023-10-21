@@ -10,7 +10,7 @@ function Footer2() {
         <div className="footer2">
           <div className="pages footer-item">
             <p className="item-heading">Pages</p>
-            <a className="link" href="/">
+            <a className="link" href="/about">
               About us
             </a>
             <a className="link" href="/">

@@ -11,9 +11,19 @@ const PhoneCover = () => {
       </p>
       <div class="line"></div>
       <div className="container" style={{ marginTop: "32px" }}>
-        <div className="coverCategory row-container">
-          <a href="/home/phone-cover/glass-cover">3D Glass Cover</a>
-        </div>
+        <a
+          className="coverCategory row-container"
+          href="/home/phone-cover/glass-cover"
+        >
+          3D Glass Cover
+        </a>
+        <a
+          className="coverCategory row-container"
+          href="/home/phone-cover/hard-cover"
+        >
+          Hard Cover
+        </a>
+
         <div className="coverCategory row-container">
           {" "}
           <a href="/home/phone-cover/soft-cover">Soft Sticker cases</a>

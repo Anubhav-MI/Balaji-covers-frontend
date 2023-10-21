@@ -7,6 +7,7 @@ import cart from "../../../Icons/shopping-cart.png";
 import profile from "../../../Icons/Group 82.png";
 import scan from "../../../Icons/scan.png";
 import dash from "../../../Icons/dash.png";
+import QR from "../../../Icons/qr.jpg";
 
 const Payment = () => {
   return (
@@ -68,7 +69,14 @@ const Payment = () => {
         </div>
         <div class="line"></div>
 
-        <div className="detail-box"></div>
+        <img
+          className="detail-box"
+          src={QR}
+          width={240}
+          height={240}
+          alt="qr"
+        ></img>
+
         <h1 className="heading" style={{ marginTop: "50px" }}>
           Payment
         </h1>

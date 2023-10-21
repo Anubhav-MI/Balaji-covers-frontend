@@ -15,7 +15,10 @@ const Image = () => {
       </p>
       <div class="line"></div>
       <div className="container response">
-        <div className="content" style={{ textAlign: "center" }}>
+        <div
+          className="content"
+          style={{ textAlign: "center", padding: "30px", fontWeight: "600" }}
+        >
           <p>Enhance your style with a pair of cases and enjoy 20% savings.</p>
         </div>
 
@@ -24,7 +27,7 @@ const Image = () => {
             <button className="upload-image2">Upload Image</button>
           </div>
           <div className="upload-box2 container">
-            <button className="upload-image2">Upload Image</button>
+            <button className="upload-image2">Upload more</button>
           </div>
         </div>
 
