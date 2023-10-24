@@ -168,8 +168,8 @@ const Payment = () => {
           ></div>
           <p style={{ fontSize: "12px" }}>Method</p>
           <div className="row" style={{ justifyContent: "space-between" }}>
-            <p>Cash on delivery</p>
-            <p>249.00</p>
+            <p>Online(no extra charges)</p>
+            <p>199.00</p>
           </div>
           <div
             className="short-line"
@@ -177,10 +177,6 @@ const Payment = () => {
           ></div>
         </div>
 
-        <div style={{ marginTop: "20px" }}>
-          COD orders require a 50 rupee upfront payment, with a 199 rupee
-          payment on delivery time
-        </div>
         <p style={{ fontSize: "24px" }}>Payment</p>
         <div style={{ lineHeight: "0.1" }}>
           All transactions are secure and encrypted.

@@ -86,3 +86,9 @@
   margin: 0 20px;
   margin-top: 20px;
 }
+.dis-image {
+  height: 53px;
+  width: 46px;
+  border: 1px solid #000;
+  border-radius: 12px;
+}

@@ -53,6 +53,17 @@ const Detail2 = () => {
     setChecked(!isChecked);
   };
 
+  const showSummary = () => {};
+  const [showsummary, setshowsummary] = useState(false);
+
+  const opensummary = () => {
+    setshowsummary(!showsummary);
+  };
+
+  // const closesummary = () => {
+  //   setshowsummary(false);
+  // };
+
   return (
     <div>
       <p className="top roww">
@@ -102,20 +113,79 @@ const Detail2 = () => {
           style={{ justifyContent: "space-between", width: "350px" }}
         >
           <div className="row-container">
-            {" "}
             <img src={cart} height={24} width={24} alt="product" />
             <p>Show order summary </p>
+            {!showsummary && (
+              <svg
+                onClick={opensummary}
+                xmlns="http://www.w3.org/2000/svg"
+                width="9"
+                height="6"
+                viewBox="0 0 9 6"
+                fill="none"
+              >
+                <path
+                  d="M1 1L4.24418 4.24418C4.65322 4.65322 5.32295 4.63092 5.70387 4.19558L8.5 1"
+                  stroke="#4C5C5F"
+                />
+              </svg>
+            )}
+
+            {showsummary && (
+              <svg
+                onClick={opensummary}
+                xmlns="http://www.w3.org/2000/svg"
+                width="9"
+                height="6"
+                viewBox="0 0 9 6"
+                fill="none"
+              >
+                <path
+                  d="M8.5 5L5.25582 1.75582C4.84678 1.34678 4.17705 1.36908 3.79613 1.80442L1 5"
+                  stroke="#4C5C5F"
+                />
+              </svg>
+            )}
           </div>
 
           <span>199</span>
         </div>
         <div class="line"></div>
+        {showsummary && (
+          <div>
+            <div
+              className="row-container"
+              style={{ justifyContent: "flex-start", padding: "20px" }}
+            >
+              <div className="dis-image">.</div>
+              <div>
+                <p style={{ fontWeight: "800" }}>Samsung Galaxy S23</p>
+                <p>Glass cover</p>
+              </div>
+            </div>
+            <div
+              className="row-container"
+              style={{
+                justifyContent: "space-between",
+                paddingLeft: "20px",
+                paddingRight: "20px",
+              }}
+            >
+              <p>Total including taxes</p>
+              <p>
+                INR{" "}
+                <span style={{ fontWeight: "800", fontSize: "24px" }}>199</span>
+              </p>
+            </div>
+            <div class="line"></div>
+          </div>
+        )}
         <div
           className="row-container"
           style={{ justifyContent: "space-between", width: "350px" }}
         >
           <h1 className="heading">Shipping address</h1>
-          <span>Have an account</span>
+          <span>Have an account?</span>
         </div>
         <div className="container">
           <input

@@ -10,7 +10,7 @@ import SignIn from "./Components/sign-in/signIn";
 import Forgotpassword from "./Components/forgotPassword/forgotpassword";
 import Home from "./Components/home/home";
 import Customize from "./Components/home/customize/customize";
-import Frames from "./Components/home/Frames/frames";
+// import Frames from "./Components/home/Frames/frames";
 import Tshirt from "./Components/home/Tshirts";
 import Skins from "./Components/home/skins/skin";
 import PhoneCover from "./Components/home/phone cover/phoneCover";
@@ -64,7 +64,7 @@ function App() {
           />
           <Route path="/home/wishlist" element={<Wishlist />} />
           <Route path="/home/bag" element={<Bag />} />
-          <Route path="/home/frames" element={<Frames />} />
+          {/* <Route path="/home/frames" element={<Frames />} /> */}
           <Route path="/home/skins" element={<Skins />} />
           <Route path="/home/Tshirt" element={<Tshirt />} />
           <Route path="/home/phone-cover" element={<PhoneCover />} />
