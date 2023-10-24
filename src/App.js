@@ -10,8 +10,8 @@ import SignIn from "./Components/sign-in/signIn";
 import Forgotpassword from "./Components/forgotPassword/forgotpassword";
 import Home from "./Components/home/home";
 import Customize from "./Components/home/customize/customize";
-// import Frames from "./Components/home/Frames/frames";
 import Tshirt from "./Components/home/Tshirts";
+import Accsesories from "./Components/home/accessories/accesssries";
 import Skins from "./Components/home/skins/skin";
 import PhoneCover from "./Components/home/phone cover/phoneCover";
 import Glasscover from "./Components/home/phone cover/3DglassCover/glasscover";
@@ -23,6 +23,11 @@ import Polaroid from "./Components/home/phone cover/Polaroid cases/polaroid";
 import Aesthetic from "./Components/home/phone cover/Aesthetic cases/Aesthetic";
 import Hardcover from "./Components/home/phone cover/Hard cover/hardcover";
 import Anime from "./Components/home/phone cover/Anime cases/Anime cases";
+import Popgrippers from "./Components/home/accessories/Pop grippers/popgripper";
+import Popsocket from "./Components/home/accessories/Pop sockets/popsocket";
+import Frames from "./Components/home/accessories/Frames/frames";
+import Mugs from "./Components/home/accessories/Mug/mug";
+import Wallet from "./Components/home/accessories/Wallet/wallet";
 import Wishlist from "./Components/home/wishlist/wishlist";
 import Image from "./Components/home/customize/image";
 import Detail1 from "./Components/home/customize/detail1";
@@ -64,8 +69,8 @@ function App() {
           />
           <Route path="/home/wishlist" element={<Wishlist />} />
           <Route path="/home/bag" element={<Bag />} />
-          {/* <Route path="/home/frames" element={<Frames />} /> */}
           <Route path="/home/skins" element={<Skins />} />
+          <Route path="/home/accessories" element={<Accsesories />} />
           <Route path="/home/Tshirt" element={<Tshirt />} />
           <Route path="/home/phone-cover" element={<PhoneCover />} />
           <Route path="/home/phone-cover/hard-cover" element={<Hardcover />} />
@@ -86,6 +91,15 @@ function App() {
             path="/home/glass-cover/cover-image"
             element={<CoverImage />}
           />
+          <Route
+            path="/home/accessories/pop-gripppers"
+            element={<Popgrippers />}
+          />
+          <Route path="/home/accessories/pop-socket" element={<Popsocket />} />
+          <Route path="/home/accessories/frames" element={<Frames />} />
+          <Route path="/home/accessories/mugs" element={<Mugs />} />
+          <Route path="/home/accessories/wallets" element={<Wallet />} />
+
           <Route path="/forgot-password" element={<Forgotpassword />} />
         </Routes>
         <Footer />

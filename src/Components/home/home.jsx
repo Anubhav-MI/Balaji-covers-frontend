@@ -92,7 +92,7 @@ function Home() {
                 </span>
               </div>
               <div className="container-close">
-                <a href="/home/">
+                <a href="/home/accessories">
                   {/* <img src={frame} height={130} width={130} alt="product" /> */}
                   <img
                     className="category-itemlg category-item container-close"
