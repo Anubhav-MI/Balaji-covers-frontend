@@ -1,9 +1,5 @@
 import "./home.css";
 import "../general.css";
-import frame from "../../Icons/fm.png";
-import print from "../../Icons/print.jpeg";
-import printed from "../../Icons/printeddd.png";
-import bag from "../../Icons/bbg.png";
 import tshirt from "../../Icons/tshirt.gif";
 import gif from "../../Icons/phone cover.gif";
 import gif2 from "../../Icons/skin2.gif";

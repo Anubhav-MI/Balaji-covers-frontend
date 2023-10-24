@@ -53,7 +53,6 @@ const Detail2 = () => {
     setChecked(!isChecked);
   };
 
-  const showSummary = () => {};
   const [showsummary, setshowsummary] = useState(false);
 
   const opensummary = () => {
