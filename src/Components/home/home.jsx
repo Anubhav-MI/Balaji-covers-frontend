@@ -2,7 +2,7 @@ import "./home.css";
 import "../general.css";
 import tshirt from "../../Icons/tshirt.gif";
 import gif from "../../Icons/phone cover.gif";
-import gif2 from "../../Icons/skin2.gif";
+import gif2 from "../../Icons/skin3.gif";
 import gif3 from "../../Icons/accessories2.gif";
 
 import Footer2 from "../footer/footer2";

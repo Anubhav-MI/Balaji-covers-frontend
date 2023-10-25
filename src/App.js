@@ -2,6 +2,8 @@ import "./App.css";
 import SignUp from "./Components/Sign-up/signup";
 import Navbar from "./Components/navbar/navbar";
 import Footer from "./Components/footer/footer";
+import Account from "./Components/My account/myaccount";
+import Products from "./Components/Products/products";
 import Privacy from "./Components/Privacy policy/privacy";
 import Terms from "./Components/Terms and condition/terms and condition";
 import FAQ from "./Components/FAQ/faq";
@@ -56,6 +58,8 @@ function App() {
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/termsandcondition" element={<Terms />} />
           <Route path="/FAQ" element={<FAQ />} />
+          <Route path="/my-account" element={<Account />} />
+          <Route path="/products" element={<Products />} />
           <Route path="/about" element={<About />} />
           <Route path="/" element={<Home />} />
           <Route path="/home/customize" element={<Customize />} />

@@ -14,8 +14,8 @@ const PopupMenu = ({ isOpen, onClose }) => {
       <div className="link-container" style={{ marginTop: "32px" }}>
         <a href="/home/wishlist">Wishlist</a>
         <a href="/home/bag">Bag</a>
-        <a href="/">Saved address</a>
-        <a href="/">About product</a>
+        <a href="/my-account">My Account</a>
+        <a href="/products">About product</a>
         <a href="/">Review</a>
         <div
           className="row-container logout-btn"
