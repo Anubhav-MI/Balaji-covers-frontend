@@ -27,18 +27,22 @@ const Customize = () => {
       </p>
       <div class="line"></div>
       <div className="container response">
-        <div className="btn-container">
+        <div className="btn-container2">
           <button className="btn action-btn">Cover</button>
           <button className="btn signup">Frame</button>
           <button className="btn signup">Skin</button>
+          <button className="btn signup">Mugs</button>
         </div>
         <div className="content" style={{ textAlign: "center" }}>
-          <p>Create art from memories!</p>
-          <p style={{ fontWeight: "600" }}>
+          <p>
+            Upload your own picture, wallpaper And anything that you want on
+            your cover/skin to make it unique and special.
+          </p>
+          {/* <p style={{ fontWeight: "600" }}>
             Upload image {">"}Artist creation{">"}Approve{">"}
             Receive at your home.
           </p>
-          <p>Create yours today!</p>
+          <p>Create yours today!</p> */}
         </div>
         <div className="upload-box container">
           <button className="upload-image">

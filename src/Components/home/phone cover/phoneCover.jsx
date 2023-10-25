@@ -10,12 +10,12 @@ const PhoneCover = () => {
         Phone covers
       </p>
       <div class="line"></div>
-      <div className="container" style={{ marginTop: "32px" }}>
+      <div className="container" style={{ marginTop: "32px", gap: "32px" }}>
         <a
           className="coverCategory row-container"
           href="/home/phone-cover/glass-cover"
         >
-          3D Glass Cover
+          Glass Cover
         </a>
         <a
           className="coverCategory row-container"
@@ -26,17 +26,14 @@ const PhoneCover = () => {
 
         <div className="coverCategory row-container">
           {" "}
-          <a href="/home/phone-cover/soft-cover">Soft Sticker cases</a>
+          <a href="/home/phone-cover/soft-cover">Sticker cases</a>
         </div>
-        <div className="coverCategory row-container">
-          {" "}
-          <a href="/home/phone-cover/forlovers">For lovers</a>
-        </div>
+
         <div className="coverCategory row-container">
           <a href="/home/phone-cover/chain-cases">Chain Cases</a>
         </div>
         <div className="coverCategory row-container">
-          <a href="/home/phone-cover/polaroid">Polaroid cases</a>
+          <a href="/home/phone-cover/polaroid">Soft cases</a>
         </div>
         <div className="coverCategory row-container">
           <a href="/home/phone-cover/aesthetic">Aesthetic cases</a>

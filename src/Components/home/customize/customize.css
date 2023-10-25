@@ -4,6 +4,10 @@
   border-radius: 8px;
   border: 1px solid #424d51;
 }
+.content {
+  font-family: Titillium Web;
+  padding: 0 20px;
+}
 .upload-image {
   background: #98c1d9;
   width: 64px;
@@ -106,4 +110,11 @@
   font-weight: 400;
   line-height: 23px;
   letter-spacing: 0em;
+}
+.btn-container2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+  grid-template-rows: repeat(2, 80px);
+  gap: 32px;
+  margin-bottom: 32px;
 }

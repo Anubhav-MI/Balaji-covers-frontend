@@ -18,7 +18,6 @@ import Skins from "./Components/home/skins/skin";
 import PhoneCover from "./Components/home/phone cover/phoneCover";
 import Glasscover from "./Components/home/phone cover/3DglassCover/glasscover";
 import Softcover from "./Components/home/phone cover/soft sticker cases/softSticker";
-import Forlovers from "./Components/home/phone cover/For lovers/forlovers";
 import Chaincases from "./Components/home/phone cover/Chain cases/chaincases";
 import CoverImage from "./Components/home/phone cover/3DglassCover/coverImage";
 import Polaroid from "./Components/home/phone cover/Polaroid cases/polaroid";
@@ -83,7 +82,7 @@ function App() {
             element={<Glasscover />}
           />
           <Route path="/home/phone-cover/soft-cover" element={<Softcover />} />
-          <Route path="/home/phone-cover/forlovers" element={<Forlovers />} />
+          {/* <Route path="/home/phone-cover/forlovers" element={<Forlovers />} /> */}
           <Route path="/home/phone-cover/polaroid" element={<Polaroid />} />
           <Route path="/home/phone-cover/aesthetic" element={<Aesthetic />} />
           <Route path="/home/phone-cover/anime" element={<Anime />} />

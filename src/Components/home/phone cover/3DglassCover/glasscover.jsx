@@ -44,7 +44,10 @@ const Glasscover = () => {
             />
             <div className="callToAction">
               <button className="buy-btn action-btn">
-                <a href="/home/customize/image" style={{ color: "#fffbf1" }}>
+                <a
+                  href="/home/customize/image/detail1"
+                  style={{ color: "#fffbf1" }}
+                >
                   Select Model
                 </a>
               </button>
@@ -67,7 +70,10 @@ const Glasscover = () => {
             />
             <div className="callToAction">
               <button className="buy-btn action-btn">
-                <a href="/home/customize/image" style={{ color: "#fffbf1" }}>
+                <a
+                  href="/home/customize/image/detail1"
+                  style={{ color: "#fffbf1" }}
+                >
                   Select Model
                 </a>
               </button>

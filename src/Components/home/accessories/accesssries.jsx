@@ -10,7 +10,7 @@ const Accsesories = () => {
         Accessories
       </p>
       <div class="line"></div>
-      <div className="container" style={{ marginTop: "32px" }}>
+      <div className="container" style={{ marginTop: "32px", gap: "32px" }}>
         <a
           className="coverCategory row-container"
           href="/home/accessories/pop-gripppers"

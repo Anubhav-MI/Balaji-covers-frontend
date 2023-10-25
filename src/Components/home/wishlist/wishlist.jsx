@@ -1,10 +1,15 @@
 import Phonecover from "../../../Icons/phone-cover.png";
 import Phonecover2 from "../../../Icons/phone-cover2.png";
 import shopbag from "../../../Icons/shopping-bag.png";
+import dash from "../../../Icons/dash.png";
 const Wishlist = () => {
   return (
     <div>
-      <div className="top">Home&rarr;Wishlist</div>
+      <p className="top roww">
+        <a href="/">Home</a>
+        <img src={dash} alt="product" height={12} width={12} />
+        <a href="/signin">Bag</a>
+      </p>
       <div class="line"></div>
       <div className="category">
         <div className="container">

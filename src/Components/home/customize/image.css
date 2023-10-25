@@ -126,3 +126,10 @@
   font-weight: 400;
   line-height: normal;
 }
+.option {
+  background-color: #424d51;
+  border-radius: 4px;
+  color: #fff;
+  padding: 5px 32px;
+  font-family: Titillium Web;
+}

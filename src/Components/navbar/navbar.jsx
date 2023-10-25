@@ -18,7 +18,9 @@ function Navbar() {
     <div className="navbar">
       <img src={logo} height={24} width={24} alt="product" />
       <p className="title">Balaji Cover</p>
-      <img src={bag} height={24} width={24} alt="product" />
+      <a href="/home/bag">
+        <img src={bag} height={24} width={24} alt="product" />
+      </a>
       <img
         src={menu}
         height={24}

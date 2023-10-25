@@ -21,12 +21,32 @@ const Skins = () => {
           </p>
           <p>Create yours today!</p>
         </div>
-        <div className="container customize-btn">Customize Now</div>
+        <a
+          className="container customize-btn nodisplay"
+          style={{
+            color: "#FFF",
+            fontfamily: "Gill Sans MT",
+            fontsize: "24px",
+            fontstyle: "normal",
+            fontweight: "400",
+            lineheight: "normal",
+          }}
+          href="/home/customize"
+        >
+          Customize Now
+        </a>
         <div className="products category">
           <div className="product-cards container">
             <img src={frame} height={175} width={150} alt="product" />
             <div className="callToAction">
-              <button className="buy-btn action-btn">Select Model</button>
+              <button className="buy-btn action-btn">
+                <a
+                  href="/home/customize/image/detail1"
+                  style={{ color: "#fffbf1" }}
+                >
+                  Select Model
+                </a>
+              </button>
               <img
                 className="icon"
                 src={shopbag}
@@ -39,7 +59,14 @@ const Skins = () => {
           <div className="product-cards container">
             <img src={frame} height={175} width={150} alt="product" />
             <div className="callToAction">
-              <button className="buy-btn action-btn">Select Model</button>
+              <button className="buy-btn action-btn">
+                <a
+                  href="/home/customize/image/detail1"
+                  style={{ color: "#fffbf1" }}
+                >
+                  Select Model
+                </a>
+              </button>
               <img
                 className="icon"
                 src={shopbag}
@@ -52,7 +79,14 @@ const Skins = () => {
           <div className="product-cards container">
             <img src={frame} height={175} width={150} alt="product" />
             <div className="callToAction">
-              <button className="buy-btn action-btn">Select Model</button>
+              <button className="buy-btn action-btn">
+                <a
+                  href="/home/customize/image/detail1"
+                  style={{ color: "#fffbf1" }}
+                >
+                  Select Model
+                </a>
+              </button>
               <img
                 className="icon"
                 src={shopbag}
@@ -65,7 +99,14 @@ const Skins = () => {
           <div className="product-cards container">
             <img src={frame} height={175} width={150} alt="product" />
             <div className="callToAction">
-              <button className="buy-btn action-btn">Select Model</button>
+              <button className="buy-btn action-btn">
+                <a
+                  href="/home/customize/image/detail1"
+                  style={{ color: "#fffbf1" }}
+                >
+                  Select Model
+                </a>
+              </button>
               <img
                 className="icon"
                 src={shopbag}

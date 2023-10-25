@@ -30,7 +30,34 @@ const Image = () => {
             <button className="upload-image2">Upload more</button>
           </div>
         </div>
-
+        <div style={{ padding: "20px" }}>
+          <div style={{ textAlign: "center" }}>
+            If you add a pop socket or pop gripper with cover then you get
+            matching pop gripper or pop socket with the same print as your
+            cover.
+          </div>
+          <div
+            className="column"
+            style={{
+              marginTop: "32px",
+              gap: "40px",
+              fontfamily: "Titillium Web",
+            }}
+          >
+            <button className="option">
+              <span style={{ fontSize: "20px" }}>Add a pop gripper </span>(only
+              for 59/-)
+            </button>
+            <button className="option">
+              <span style={{ fontSize: "20px" }}>Add a pop socket </span>(only
+              for 59/-)
+            </button>
+          </div>
+        </div>
+        <div className="detail-container">
+          <label>Suggestion</label>
+          <input className="drop-box" type="text" placeholder=""></input>
+        </div>
         <div>
           <a
             className="container customize-btn"
