@@ -29,7 +29,8 @@ function Account() {
                 fontweight: "400",
                 lineheight: "normal",
               }}
-              href="/home/customize/image"
+              href="/home
+              "
             >
               Upload Image
             </a>
