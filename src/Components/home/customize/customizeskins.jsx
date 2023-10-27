@@ -28,10 +28,16 @@ const Customizeskins = () => {
       <div class="line"></div>
       <div className="container response">
         <div className="btn-container2">
-          <button className="btn signup ">Cover</button>
-          <button className="btn signup ">Frame</button>
+          <a href="/home/customize">
+            <button className="btn signup">Cover</button>
+          </a>
+          <a href="/home/customize-frame">
+            <button className="btn signup">Frame</button>
+          </a>
           <button className="btn action-btn">Skin</button>
-          <button className="btn signup">Mugs</button>
+          <a href="/home/customize-mugs">
+            <button className="btn signup">Mugs</button>
+          </a>
         </div>
         <div className="content" style={{ textAlign: "center" }}>
           <p>

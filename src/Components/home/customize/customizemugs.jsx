@@ -28,9 +28,15 @@ const Customizemugs = () => {
       <div class="line"></div>
       <div className="container response">
         <div className="btn-container2">
-          <button className="btn signup ">Cover</button>
-          <button className="btn signup">Frame</button>
-          <button className="btn signup">Skin</button>
+          <a href="/home/customize">
+            <button className="btn signup">Cover</button>
+          </a>
+          <a href="/home/customize-frame">
+            <button className="btn signup">Frame</button>
+          </a>
+          <a href="/home/customize-skins">
+            <button className="btn signup">Skins</button>
+          </a>
           <button className="btn action-btn ">Mugs</button>
         </div>
         <div className="content" style={{ textAlign: "center" }}>

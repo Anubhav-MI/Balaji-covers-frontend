@@ -28,10 +28,16 @@ const Customizeframe = () => {
       <div class="line"></div>
       <div className="container response">
         <div className="btn-container2">
-          <button className="btn signup ">Cover</button>
+          <a href="/home/customize">
+            <button className="btn signup">Cover</button>
+          </a>
           <button className="btn action-btn ">Frame</button>
-          <button className="btn signup">Skin</button>
-          <button className="btn signup">Mugs</button>
+          <a href="/home/customize-skins">
+            <button className="btn signup">Skins</button>
+          </a>
+          <a href="/home/customize-mugs">
+            <button className="btn signup">Mugs</button>
+          </a>
         </div>
         <div className="content" style={{ textAlign: "center" }}>
           <p>Create art from memories</p>
