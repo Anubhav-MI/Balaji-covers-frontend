@@ -59,7 +59,6 @@ const Customize = () => {
                 fontsize: "24px",
                 fontstyle: "normal",
                 fontweight: "400",
-                lineheight: "normal",
               }}
               href="/home/customize/image"
             >

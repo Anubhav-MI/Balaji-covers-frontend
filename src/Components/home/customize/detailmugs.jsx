@@ -10,31 +10,31 @@ import dash from "../../../Icons/dash.png";
 
 const Detailmugs = () => {
   // State to track the selected value
-  const [selectedbrand1, setSelectedbrand1] = useState("");
-  const [selectedbrand2, setSelectedbrand2] = useState("");
-  const [selectedmodel1, setSelectedmodel1] = useState("");
-  const [selectedmodel2, setSelectedmodel2] = useState("");
-  const [selectedcover, setcovertype] = useState("");
-  const [name, setname] = useState("");
+  // const [selectedbrand1, setSelectedbrand1] = useState("");
+  // const [selectedbrand2, setSelectedbrand2] = useState("");
+  // const [selectedmodel1, setSelectedmodel1] = useState("");
+  // const [selectedmodel2, setSelectedmodel2] = useState("");
+  // const [selectedcover, setcovertype] = useState("");
+  // const [name, setname] = useState("");
   // Handler function for onChange event
-  const handleSelectbrand1 = (event) => {
-    setSelectedbrand1(event.target.value);
-  };
-  const handleSelectmodel1 = (event) => {
-    setSelectedmodel1(event.target.value);
-  };
-  const handleSelectbrand2 = (event) => {
-    setSelectedbrand2(event.target.value);
-  };
-  const handleSelectmodel2 = (event) => {
-    setSelectedmodel2(event.target.value);
-  };
-  const handleSelectedcover = (event) => {
-    setcovertype(event.target.value);
-  };
-  const handlename = (event) => {
-    setname(event.target.value);
-  };
+  // const handleSelectbrand1 = (event) => {
+  //   setSelectedbrand1(event.target.value);
+  // };
+  // const handleSelectmodel1 = (event) => {
+  //   setSelectedmodel1(event.target.value);
+  // };
+  // const handleSelectbrand2 = (event) => {
+  //   setSelectedbrand2(event.target.value);
+  // };
+  // const handleSelectmodel2 = (event) => {
+  //   setSelectedmodel2(event.target.value);
+  // };
+  // const handleSelectedcover = (event) => {
+  //   setcovertype(event.target.value);
+  // };
+  // const handlename = (event) => {
+  //   setname(event.target.value);
+  // };
 
   const [quantity, setQuantity] = useState(1); // Initial quantity is set to 1
 
@@ -164,8 +164,8 @@ const Detailmugs = () => {
           <div className="detail-container">
             <label>Enter your name (if you want to print on cover)</label>
             <input
-              value={name}
-              onChange={handlename}
+              // value={name}
+              // onChange={handlename}
               className="drop-box"
               type="text"
               placeholder="John Doe"

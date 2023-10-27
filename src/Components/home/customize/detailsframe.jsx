@@ -10,28 +10,28 @@ import dash from "../../../Icons/dash.png";
 
 const Detailsframe = () => {
   // State to track the selected value
-  const [selectedbrand1, setSelectedbrand1] = useState("");
-  const [selectedbrand2, setSelectedbrand2] = useState("");
-  const [selectedmodel1, setSelectedmodel1] = useState("");
-  const [selectedmodel2, setSelectedmodel2] = useState("");
-  const [selectedcover, setcovertype] = useState("");
+  // const [selectedbrand1, setSelectedbrand1] = useState("");
+  // const [selectedbrand2, setSelectedbrand2] = useState("");
+  // const [selectedmodel1, setSelectedmodel1] = useState("");
+  // const [selectedmodel2, setSelectedmodel2] = useState("");
+  // const [selectedcover, setcovertype] = useState("");
   const [name, setname] = useState("");
   // Handler function for onChange event
-  const handleSelectbrand1 = (event) => {
-    setSelectedbrand1(event.target.value);
-  };
-  const handleSelectmodel1 = (event) => {
-    setSelectedmodel1(event.target.value);
-  };
-  const handleSelectbrand2 = (event) => {
-    setSelectedbrand2(event.target.value);
-  };
-  const handleSelectmodel2 = (event) => {
-    setSelectedmodel2(event.target.value);
-  };
-  const handleSelectedcover = (event) => {
-    setcovertype(event.target.value);
-  };
+  // const handleSelectbrand1 = (event) => {
+  //   setSelectedbrand1(event.target.value);
+  // };
+  // const handleSelectmodel1 = (event) => {
+  //   setSelectedmodel1(event.target.value);
+  // };
+  // const handleSelectbrand2 = (event) => {
+  //   setSelectedbrand2(event.target.value);
+  // };
+  // const handleSelectmodel2 = (event) => {
+  //   setSelectedmodel2(event.target.value);
+  // };
+  // const handleSelectedcover = (event) => {
+  //   setcovertype(event.target.value);
+  // };
   const handlename = (event) => {
     setname(event.target.value);
   };
@@ -110,8 +110,8 @@ const Detailsframe = () => {
             <select
               className="drop-box"
               id="dropdown"
-              value={selectedbrand1}
-              onChange={handleSelectbrand1}
+              // value={selectedbrand1}
+              // onChange={handleSelectbrand1}
             >
               <option value=""> Please Choose (for cover 1)</option>
               <option value="option1">Option 1</option>
