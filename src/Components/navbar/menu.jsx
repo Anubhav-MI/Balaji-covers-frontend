@@ -16,7 +16,7 @@ const PopupMenu = ({ isOpen, onClose }) => {
         <a href="/home/bag">Bag</a>
         <a href="/my-account">My Account</a>
         <a href="/products">About product</a>
-        <a href="/">Review</a>
+        <a href="/home/customize">Review</a>
         <div
           className="row-container logout-btn"
           style={{ justifyContent: "left" }}

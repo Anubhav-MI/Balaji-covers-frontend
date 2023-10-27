@@ -2,7 +2,7 @@ import "./customize.css";
 import dash from "../../../Icons/dash.png";
 import Reviews from "./reviews";
 
-const Customize = () => {
+const Customizeskins = () => {
   // const [loadingWidth, setLoadingWidth] = useState(0);
   // const [inputValue, setInputValue] = useState(50);
 
@@ -28,16 +28,10 @@ const Customize = () => {
       <div class="line"></div>
       <div className="container response">
         <div className="btn-container2">
-          <button className="btn action-btn">Cover</button>
-          <a href="/home/customize-frame">
-            <button className="btn signup">Frame</button>
-          </a>
-          <a href="/home/customize-skins">
-            <button className="btn signup">Skins</button>
-          </a>
-          <a href="/home/customize-mugs">
-            <button className="btn signup">Mugs</button>
-          </a>
+          <button className="btn signup ">Cover</button>
+          <button className="btn signup ">Frame</button>
+          <button className="btn action-btn">Skin</button>
+          <button className="btn signup">Mugs</button>
         </div>
         <div className="content" style={{ textAlign: "center" }}>
           <p>
@@ -73,4 +67,4 @@ const Customize = () => {
   );
 };
 
-export default Customize;
+export default Customizeskins;

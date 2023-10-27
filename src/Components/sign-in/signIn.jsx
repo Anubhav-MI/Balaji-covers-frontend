@@ -34,7 +34,10 @@ function SignIn() {
               placeholder="Password"
             ></input>
             <p>
-              Forgot your password? <a href="/forgot-password"> Reset</a>
+              Forgot your password?{" "}
+              <a href="/forgot-password">
+                <span style={{ color: "blue" }}>Reset</span>{" "}
+              </a>
             </p>
             <button className="form-item action-btn create-btn">LOGIN</button>
           </div>

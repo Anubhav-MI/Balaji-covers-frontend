@@ -2,7 +2,7 @@ import "./customize.css";
 import dash from "../../../Icons/dash.png";
 import Reviews from "./reviews";
 
-const Customize = () => {
+const Customizeframe = () => {
   // const [loadingWidth, setLoadingWidth] = useState(0);
   // const [inputValue, setInputValue] = useState(50);
 
@@ -28,27 +28,19 @@ const Customize = () => {
       <div class="line"></div>
       <div className="container response">
         <div className="btn-container2">
-          <button className="btn action-btn">Cover</button>
-          <a href="/home/customize-frame">
-            <button className="btn signup">Frame</button>
-          </a>
-          <a href="/home/customize-skins">
-            <button className="btn signup">Skins</button>
-          </a>
-          <a href="/home/customize-mugs">
-            <button className="btn signup">Mugs</button>
-          </a>
+          <button className="btn signup ">Cover</button>
+          <button className="btn action-btn ">Frame</button>
+          <button className="btn signup">Skin</button>
+          <button className="btn signup">Mugs</button>
         </div>
         <div className="content" style={{ textAlign: "center" }}>
-          <p>
-            Upload your own picture, wallpaper And anything that you want on
-            your cover/skin to make it unique and special.
-          </p>
-          {/* <p style={{ fontWeight: "600" }}>
+          <p>Create art from memories</p>
+
+          <p style={{ fontWeight: "600" }}>
             Upload image {">"}Artist creation{">"}Approve{">"}
             Receive at your home.
           </p>
-          <p>Create yours today!</p> */}
+          <p>Create yours today!</p>
         </div>
         <div className="upload-box container">
           <button className="upload-image">
@@ -61,7 +53,7 @@ const Customize = () => {
                 fontweight: "400",
                 lineheight: "normal",
               }}
-              href="/home/customize/image"
+              href="/home/customize/image-frame"
             >
               Upload Image
             </a>
@@ -73,4 +65,4 @@ const Customize = () => {
   );
 };
 
-export default Customize;
+export default Customizeframe;
