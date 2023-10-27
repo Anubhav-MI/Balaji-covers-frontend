@@ -162,7 +162,7 @@ const Detailmugs = () => {
             </select>{" "}
           </div> */}
           <div className="detail-container">
-            <label>Enter your name (if you want to print on cover)</label>
+            <label>Enter your name (if you want to print on mugs)</label>
             <input
               // value={name}
               // onChange={handlename}
