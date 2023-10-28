@@ -2,7 +2,7 @@ import React from "react";
 import Reviews from "./reviews";
 import "./image.css";
 import dash from "../../../Icons/dash.png";
-const Imageframe = () => {
+const Imageskin = () => {
   return (
     <div>
       {" "}
@@ -19,7 +19,7 @@ const Imageframe = () => {
           className="content"
           style={{ textAlign: "center", padding: "30px", fontWeight: "600" }}
         >
-          <p>Buy 2 frames and enjoy 10% savings.</p>
+          <p>Buy 2 skins and enjoy 10% savings</p>
         </div>
 
         <div className="box row-container">
@@ -69,7 +69,7 @@ const Imageframe = () => {
               fontweight: "400",
               lineheight: "normal",
             }}
-            href="/home/customize/image/details-frame"
+            href="/home/customize/image/detail1"
           >
             Fill details
           </a>
@@ -80,4 +80,4 @@ const Imageframe = () => {
   );
 };
 
-export default Imageframe;
+export default Imageskin;

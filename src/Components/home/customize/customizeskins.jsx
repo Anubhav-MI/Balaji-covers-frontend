@@ -61,7 +61,7 @@ const Customizeskins = () => {
                 fontweight: "400",
                 lineheight: "normal",
               }}
-              href="/home/customize/image"
+              href="/home/customize/image-skin"
             >
               Upload Image
             </a>

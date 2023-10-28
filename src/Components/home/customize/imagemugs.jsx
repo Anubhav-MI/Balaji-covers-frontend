@@ -19,7 +19,7 @@ const Imagemugs = () => {
           className="content"
           style={{ textAlign: "center", padding: "30px", fontWeight: "600" }}
         >
-          <p>Enhance your style with a pair of cases and enjoy 20% savings.</p>
+          <p>Buy 2 mugs and enjoy 10% savings.</p>
         </div>
 
         <div className="box row-container">
