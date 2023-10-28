@@ -12,45 +12,75 @@ const FAQ = () => {
           {" "}
           <h2 style={{ fontSize: "40px" }}>FAQ</h2>
           <div style={{ fontWeight: "600", textAlign: "left" }}>
-            What is Skin/Wraps?
+            1. What customized products do you offer?
           </div>
           <p style={{ textAlign: "left" }}>
-            Mobile Skin/Wraps are vinyl wraps for your phones which stick to
-            your phone back. Mobile Skin/Wraps give a shield to your phone &
-            protect your phone from the threat of dust, stains, and scratches.
-            This gives a premium and unique look to your phone as well.
+            We offer a range of customized products including phone covers,
+            skins, pop sockets, grippers, and frames.
           </p>
           <div style={{ fontWeight: "600", textAlign: "left" }}>
-            How to apply Mobile Skin/Wraps?
+            2. How can I customize my phone cover?
           </div>
           <p style={{ textAlign: "left" }}>
-            The process of wrapping Mobile skin wrap on your phone is simple and
-            takes less than five minutes. Watch our “HOW TO APPLY SKINS” section
-            and get ready to see your phone’s new look.
+            You can customize your phone cover by uploading your preferred
+            design. We offer options for glass covers, soft covers, and hard
+            covers.
           </p>
           <div style={{ fontWeight: "600", textAlign: "left" }}>
-            What are the payment methods?
+            3. What happens after I upload my design for a Frame?
           </div>
           <p style={{ textAlign: "left" }}>
-            We accept all types of online payments, like Google pay, PhonePe,
-            UPI, Online banking, debit card, credit card, Etc.
+            Once you upload your design, our designer will convert it into an
+            illustration and confirm the design with you on WhatsApp. If you're
+            satisfied with the final design, we'll send it to you.
           </p>
           <div style={{ fontWeight: "600", textAlign: "left" }}>
-            I have not received the order but status is showing delivered. what
-            should I do?
+            4. Can I add pop sockets and grippers to my phone cover?
           </div>
           <p style={{ textAlign: "left" }}>
-            Please email us within 24 hours if you have not received your order
-            but the tracking status shows delivered. If you do not contact us
-            within 24 hours since the order was marked as delivered, we will not
-            be able to assist you in this issue. The carrier refuses to do any
-            investigation of your order after 24 hours.
+            Yes, you can add pop sockets and grippers to your phone cover for
+            just 59 rupees.
           </p>
           <div style={{ fontWeight: "600", textAlign: "left" }}>
-            How Long Will The Mobile Wrap Last?
+            5. What is the expected delivery time for products?
           </div>
           <p style={{ textAlign: "left" }}>
-            If applied and used properly, our Wraps can last up to 2 years.
+            We aim to deliver your product within 7-10 days. For any queries,
+            please contact us on WhatsApp.
+          </p>
+          <div style={{ fontWeight: "600", textAlign: "left" }}>
+            6. How can I track my order?
+          </div>
+          <p style={{ textAlign: "left" }}>
+            You will receive a tracking link on your WhatsApp within 2-3 days
+            after making your payment.
+          </p>
+          <div style={{ fontWeight: "600", textAlign: "left" }}>
+            7. What payment options do you offer?
+          </div>
+          <p style={{ textAlign: "left" }}>
+            We provide two payment options: Cash on Delivery (COD) and online
+            payment
+          </p>
+          <div style={{ fontWeight: "600", textAlign: "left" }}>
+            8. Is there an extra charge for Cash on Delivery (COD) orders?
+          </div>
+          <p style={{ textAlign: "left" }}>
+            Yes, COD orders will incur an additional charge of 49 rupees as
+            payment handling fees.
+          </p>
+          <div style={{ fontWeight: "600", textAlign: "left" }}>
+            9. Do you accept returns on customized products?
+          </div>
+          <p style={{ textAlign: "left" }}>
+            As we provide high-quality customized products based on your chosen
+            design, we do not accept returns. However, if you encounter any
+            issues, please contact us on WhatsApp for assistance.
+          </p>
+          <p style={{ textAlign: "left" }}>
+            If you have any further questions or need assistance, feel free to
+            reach out to us on WhatsApp or through our contact page. We're here
+            to help!
           </p>
         </div>
         <Footer2 />
