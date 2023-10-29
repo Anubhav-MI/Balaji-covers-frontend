@@ -22,7 +22,14 @@ const Bag = () => {
             alt="product"
           />
           <div className="callToAction">
-            <button className="buy-btn action-btn">Select Model</button>
+            <button className="buy-btn action-btn">
+              <a
+                href="/home/customize/image/detail1"
+                style={{ color: "#fffbf1" }}
+              >
+                Select Model
+              </a>
+            </button>
             <img
               className="icon"
               src={shopbag}
@@ -41,7 +48,14 @@ const Bag = () => {
             alt="product"
           />
           <div className="callToAction">
-            <button className="buy-btn action-btn">Select Model</button>
+            <button className="buy-btn action-btn">
+              <a
+                href="/home/customize/image/detail1"
+                style={{ color: "#fffbf1" }}
+              >
+                Select Model
+              </a>
+            </button>
             <img
               className="icon"
               src={shopbag}
