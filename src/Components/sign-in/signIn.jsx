@@ -1,9 +1,42 @@
 import "./signIn.css";
 import "../general.css";
+import axios from "axios";
+import { useState, useEffect } from "react";
 import Footer2 from "../footer/footer2";
 import dash from "../../Icons/dash.png";
 import Sidebar from "../sidebar/sidebar";
 function SignIn() {
+  const [data, setdata] = useState({});
+
+  useEffect(() => {
+    axios
+      .get("http://localhost:8000/api/auth/login/")
+      .then((response) => {
+        setdata(response.data);
+        console.log(data);
+      })
+      .catch((error) => console.log(error));
+  }, []);
+
+  // const handlesubmit = () => {
+  //   console.log(input);
+  //   try {
+  //     const response = axios.post("http://localhost:8000/api/auth/login/", {
+  //       data: input,
+  //     });
+
+  //     if (response.status === 200) {
+  //       // Handle success
+  //       console.log("Data sent successfully");
+  //     } else {
+  //       // Handle error
+  //       console.error("Failed to send data");
+  //     }
+  //   } catch (error) {
+  //     console.error("Error:", error);
+  //   }
+  // };
+
   return (
     <div className="main">
       <Sidebar />
