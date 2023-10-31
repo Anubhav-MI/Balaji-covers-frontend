@@ -105,6 +105,20 @@ const Detailmugs = () => {
               <option value="option3">Option 3</option>
             </select>{" "}
           </div>
+          <div className="detail-container">
+            <label htmlFor="dropdown">Mug type*</label>
+            <select
+              className="drop-box"
+              id="dropdown"
+              // value={selectedbrand1}
+              // onChange={handleSelectbrand1}
+            >
+              <option value=""> Please Choose</option>
+              <option value="option1">Simple photo mug </option>
+              <option value="option2">Magic mug</option>
+              <option value="option3">Name mug</option>
+            </select>{" "}
+          </div>
           {/* <div className="detail-container">
             <label htmlFor="dropdown">Frame size*</label>
             <select

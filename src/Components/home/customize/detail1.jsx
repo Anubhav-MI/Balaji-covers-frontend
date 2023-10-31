@@ -100,9 +100,9 @@ const Detail1 = () => {
               // onChange={handleSelectbrand1}
             >
               <option value=""> Please Choose</option>
-              <option value="option1">Option 1</option>
-              <option value="option2">Option 2</option>
-              <option value="option3">Option 3</option>
+              <option value="option1">Glass cover</option>
+              <option value="option2">Hard cover</option>
+              <option value="option3">Soft cover</option>
             </select>{" "}
           </div>
           <div className="detail-container">

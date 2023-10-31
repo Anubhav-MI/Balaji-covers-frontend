@@ -1,8 +1,12 @@
 import "../../phone cover/phoneCover.css";
-import Phonecover from "../../../../Icons/phone-cover.png";
-import Phonecover2 from "../../../../Icons/phone-cover2.png";
-import shopbag from "../../../../Icons/shopping-bag.png";
+import MovingText from "../../../movingtext";
 import dash from "../../../../Icons/dash.png";
+import mug1 from "../../../../Icons/mug1.png";
+import mug2 from "../../../../Icons/mug 2.png";
+import mug3 from "../../../../Icons/mug3.png";
+import mug4 from "../../../../Icons/mug4.png";
+import mug5 from "../../../../Icons/mug5.png";
+import mug6 from "../../../../Icons/mug6.png";
 const Mugs = () => {
   return (
     <div>
@@ -32,59 +36,30 @@ const Mugs = () => {
           </div>
         </div>
         <div class="line"></div>
-        <p>Buy one cover for 399/-. Buy two save 20%</p>
-        <div className="category">
-          <div className="container">
-            <img
-              className="item-card"
-              src={Phonecover}
-              height={175}
-              width={150}
-              alt="product"
-            />
-            <div className="callToAction">
-              <button className="buy-btn action-btn">
-                <a
-                  href="/home/customize/image/detail1"
-                  style={{ color: "#fffbf1" }}
-                >
-                  Select Model
-                </a>
-              </button>
-              <img
-                className="icon"
-                src={shopbag}
-                height={36}
-                width={36}
-                alt="product"
-              />
-            </div>
+        {/* <p>One mug for 350/-</p> */}
+        <MovingText sentence={"One mug for 350/-"} />
+        <div className="container customize-btn">
+          <a href="/home/customize" style={{ color: "#fffbf1" }}>
+            Customize Now
+          </a>
+        </div>
+        <div className="column" style={{ alignItems: "center" }}>
+          <p style={{ fontSize: "32px" }}>Magic mug</p>
+          <div className="row" style={{ gap: "32px", marginBottom: "40px" }}>
+            <img src={mug1} alt="product" height={145} width={150} />
+            <img src={mug2} alt="product" height={145} width={150} />
           </div>
-          <div className="container">
-            <img
-              className="item-card"
-              src={Phonecover2}
-              height={175}
-              width={150}
-              alt="product"
-            />
-            <div className="callToAction">
-              <button className="buy-btn action-btn">
-                <a
-                  href="/home/customize/image/detail1"
-                  style={{ color: "#fffbf1" }}
-                >
-                  Select Model
-                </a>
-              </button>
-              <img
-                className="icon"
-                src={shopbag}
-                height={36}
-                width={36}
-                alt="product"
-              />
-            </div>
+          <div class="line"></div>
+          <p style={{ fontSize: "32px" }}>Photo mug</p>
+          <div className="row" style={{ gap: "32px", marginBottom: "40px" }}>
+            <img src={mug3} alt="product" height={145} width={150} />
+            <img src={mug4} alt="product" height={145} width={150} />
+          </div>
+          <div class="line"></div>
+          <p style={{ fontSize: "32px" }}>Name mug</p>
+          <div className="row" style={{ gap: "32px", marginBottom: "40px" }}>
+            <img src={mug5} alt="product" height={145} width={150} />
+            <img src={mug6} alt="product" height={145} width={150} />
           </div>
         </div>
       </div>

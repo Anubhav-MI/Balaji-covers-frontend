@@ -3,6 +3,7 @@ import Phonecover from "../../../../Icons/phone-cover.png";
 import Phonecover2 from "../../../../Icons/phone-cover2.png";
 import shopbag from "../../../../Icons/shopping-bag.png";
 import dash from "../../../../Icons/dash.png";
+import MovingText from "../../../movingtext";
 const Popsocket = () => {
   return (
     <div>
@@ -32,7 +33,8 @@ const Popsocket = () => {
           </div>
         </div>
         <div class="line"></div>
-        <p>Buy one cover for 399/-. Buy two save 20%</p>
+        {/* <p>One pop socket for 159/-</p> */}
+        <MovingText sentence={"One pop socket for 159/-"} />
         <div className="category">
           <div className="container">
             <img
