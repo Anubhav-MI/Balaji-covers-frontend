@@ -46,7 +46,7 @@ const Image = () => {
           >
             <button className="option">
               <span style={{ fontSize: "20px" }}>Add a pop gripper </span>(only
-              for 59/-)
+              for 99/-)
             </button>
             <button className="option">
               <span style={{ fontSize: "20px" }}>Add a pop socket </span>(only

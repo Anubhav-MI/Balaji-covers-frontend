@@ -7,7 +7,7 @@ import cart from "../../../Icons/shopping-cart.png";
 import profile from "../../../Icons/Group 82.png";
 import scan from "../../../Icons/scan.png";
 import dash from "../../../Icons/dash.png";
-import QR from "../../../Icons/qr.jpg";
+// import QR from "../../../Icons/qr.jpg";
 
 const Payment = () => {
   const [showsummary, setshowsummary] = useState(false);
@@ -186,13 +186,13 @@ const Payment = () => {
           All transactions are secure and encrypted.
         </div>
         <div className="column" style={{ alignItems: "center" }}>
-          <img
+          {/* <img
             className="detail-box"
             src={QR}
             width={240}
             height={240}
             alt="qr"
-          ></img>
+          ></img> */}
           <div>
             <a
               className="container customize-btn"
@@ -203,6 +203,7 @@ const Payment = () => {
                 fontstyle: "normal",
                 fontweight: "400",
                 lineheight: "normal",
+                marginTop: "32px",
               }}
               href="/home/customize/image/payment-done"
             >
