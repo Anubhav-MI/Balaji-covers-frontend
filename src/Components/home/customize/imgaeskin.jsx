@@ -45,7 +45,7 @@ const Imageskin = () => {
           >
             <button className="option">
               <span style={{ fontSize: "20px" }}>Add a pop gripper </span>(only
-              for 99/-)
+              for 159/-)
             </button>
             <button className="option">
               <span style={{ fontSize: "20px" }}>Add a pop socket </span>(only
