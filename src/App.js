@@ -20,7 +20,7 @@ import Accsesories from "./Components/home/accessories/accesssries";
 import Skins from "./Components/home/skins/skin";
 import PhoneCover from "./Components/home/phone cover/phoneCover";
 import Glasscover from "./Components/home/phone cover/3DglassCover/glasscover";
-import Softcover from "./Components/home/phone cover/soft sticker cases/softSticker";
+import Softcover from "./Components/home/phone cover/soft cases/softSticker";
 import Chaincases from "./Components/home/phone cover/Chain cases/chaincases";
 import CoverImage from "./Components/home/phone cover/3DglassCover/coverImage";
 import Polaroid from "./Components/home/phone cover/Polaroid cases/polaroid";
