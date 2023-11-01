@@ -39,15 +39,24 @@ function Footer() {
         </div>
         <div className="follow footer-item">
           <p className="item-heading">Follow us</p>
-          <a className="link row" href="/">
+          <a
+            className="link row"
+            href="https://instagram.com/balaji_cover_?igshid=OGQ5ZDc2ODk2ZA=="
+          >
             <img src={insta} height={12} width={12} alt="product" />
             Instagram
           </a>
-          <a className="link row" href="/">
+          <a
+            className="link row"
+            href="https://www.facebook.com/profile.php?id=100065181295431&mibextid=LQQJ4d"
+          >
             <img src={facebook} height={12} width={12} alt="product" />
             Facebook
           </a>
-          <a className="link row" href="/">
+          <a
+            className="link row"
+            href="https://youtube.com/@balaji_cover?si=4Men83Huw9QYTyFG"
+          >
             <img src={youtube} height={12} width={12} alt="product" />
             Youtube
           </a>

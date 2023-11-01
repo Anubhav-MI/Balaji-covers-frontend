@@ -26,6 +26,7 @@ import CoverImage from "./Components/home/phone cover/3DglassCover/coverImage";
 import Polaroid from "./Components/home/phone cover/Polaroid cases/polaroid";
 import Aesthetic from "./Components/home/phone cover/Aesthetic cases/Aesthetic";
 import Hardcover from "./Components/home/phone cover/Hard cover/hardcover";
+import Stickercases from "./Components/home/phone cover/sticker cases/Sticker";
 import Anime from "./Components/home/phone cover/Anime cases/Anime cases";
 import Popgrippers from "./Components/home/accessories/Pop grippers/popgripper";
 import Popsocket from "./Components/home/accessories/Pop sockets/popsocket";
@@ -106,6 +107,10 @@ function App() {
           <Route path="/home/phone-cover/soft-cover" element={<Softcover />} />
           {/* <Route path="/home/phone-cover/forlovers" element={<Forlovers />} /> */}
           <Route path="/home/phone-cover/polaroid" element={<Polaroid />} />
+          <Route
+            path="/home/phone-cover/stickercase"
+            element={<Stickercases />}
+          />
           <Route path="/home/phone-cover/aesthetic" element={<Aesthetic />} />
           <Route path="/home/phone-cover/anime" element={<Anime />} />
           <Route

@@ -21,19 +21,22 @@ const PhoneCover = () => {
           className="coverCategory row-container"
           href="/home/phone-cover/hard-cover"
         >
-          Hard Cover
+          Hard case
         </a>
 
         <div className="coverCategory row-container">
           {" "}
-          <a href="/home/phone-cover/soft-cover">Sticker cases</a>
+          <a href="/home/phone-cover/soft-cover">Soft case</a>
         </div>
 
         <div className="coverCategory row-container">
           <a href="/home/phone-cover/chain-cases">Chain Cases</a>
         </div>
         <div className="coverCategory row-container">
-          <a href="/home/phone-cover/polaroid">Soft cases</a>
+          <a href="/home/phone-cover/stickercase">Sticker cases</a>
+        </div>
+        <div className="coverCategory row-container">
+          <a href="/home/phone-cover/polaroid">Polaroid cases</a>
         </div>
         <div className="coverCategory row-container">
           <a href="/home/phone-cover/aesthetic">Aesthetic cases</a>
