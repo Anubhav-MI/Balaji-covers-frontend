@@ -96,8 +96,8 @@ const Detail1 = () => {
             <select
               className="drop-box"
               id="dropdown"
-              // value={selectedbrand1}
-              // onChange={handleSelectbrand1}
+              value={selectedcover}
+              onChange={handleSelectedcover}
             >
               <option value=""> Please Choose</option>
               <option value="option1">Glass cover</option>
@@ -171,7 +171,7 @@ const Detail1 = () => {
               placeholder="John Doe"
             ></input>
           </div>
-          <div className="detail-container">
+          {/* <div className="detail-container">
             <label htmlFor="dropdown">Select cover type*</label>
             <select
               className="drop-box"
@@ -184,7 +184,7 @@ const Detail1 = () => {
               <option value="option2">Option 2</option>
               <option value="option3">Option 3</option>
             </select>{" "}
-          </div>
+          </div> */}
           <div className="row-container gap">
             <div>
               <label htmlFor="quantity">Quantity</label>

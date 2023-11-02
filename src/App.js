@@ -15,7 +15,7 @@ import Customize from "./Components/home/customize/customize";
 import Customizeframe from "./Components/home/customize/customizeframe";
 import Customizemugs from "./Components/home/customize/customizemugs";
 import Customizeskins from "./Components/home/customize/customizeskins";
-import Tshirt from "./Components/home/Tshirts";
+import Tshirt from "./Components/Tshirt/Tshirts";
 import Accsesories from "./Components/home/accessories/accesssries";
 import Skins from "./Components/home/skins/skin";
 import PhoneCover from "./Components/home/phone cover/phoneCover";
