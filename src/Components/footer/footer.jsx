@@ -12,7 +12,7 @@ function Footer() {
           <a className="link" href="/about">
             About us
           </a>
-          <a className="link" href="/">
+          <a className="link" href="https://wa.me/7691862407">
             Contact us
           </a>
           <a className="link" href="/privacy">
@@ -33,7 +33,7 @@ function Footer() {
           <a className="link" href="/signup">
             Register
           </a>
-          <a className="link" href="/">
+          <a className="link" href="https://wa.me/7691862407">
             Track order
           </a>
         </div>

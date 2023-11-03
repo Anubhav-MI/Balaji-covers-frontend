@@ -35,13 +35,16 @@ function Home() {
 
               <div className="row-container">
                 {" "}
-                <button className="whatsapp">Need Help?</button>
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png"
-                  height={48}
-                  width={48}
-                  alt="whatsapp logo"
-                ></img>
+                <a className="row-container" href="https://wa.me/7691862407">
+                  {" "}
+                  <button className="whatsapp">Need Help?</button>
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png"
+                    height={48}
+                    width={48}
+                    alt="whatsapp logo"
+                  ></img>
+                </a>
               </div>
             </div>
           </div>

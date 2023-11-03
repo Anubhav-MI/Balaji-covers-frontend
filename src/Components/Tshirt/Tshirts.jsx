@@ -33,7 +33,7 @@ function Tshirt() {
             <div className="callToAction">
               <button className="buy-btn action-btn">
                 <a
-                  href="/home/customize/image/detail1"
+                  href="/home/glass-cover/cover-image-tshirt"
                   style={{ color: "#fffbf1" }}
                 >
                   Select Model
@@ -53,7 +53,7 @@ function Tshirt() {
             <div className="callToAction">
               <button className="buy-btn action-btn">
                 <a
-                  href="/home/customize/image/detail1"
+                  href="/home/glass-cover/cover-image-tshirt"
                   style={{ color: "#fffbf1" }}
                 >
                   Select Model
@@ -73,7 +73,7 @@ function Tshirt() {
             <div className="callToAction">
               <button className="buy-btn action-btn">
                 <a
-                  href="/home/customize/image/detail1"
+                  href="/home/glass-cover/cover-image-tshirt"
                   style={{ color: "#fffbf1" }}
                 >
                   Select Model
@@ -93,7 +93,7 @@ function Tshirt() {
             <div className="callToAction">
               <button className="buy-btn action-btn">
                 <a
-                  href="/home/customize/image/detail1"
+                  href="/home/glass-cover/cover-image-tshirt"
                   style={{ color: "#fffbf1" }}
                 >
                   Select Model
