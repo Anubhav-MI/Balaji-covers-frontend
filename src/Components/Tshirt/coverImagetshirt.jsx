@@ -1,5 +1,5 @@
 import "./coverImagetshirt.css";
-import tshirt from "../../Icons/tshirt.png";
+import tshirt from "../../Icons/t1.jpg";
 import like from "../../Icons/love.png";
 import share from "../../Icons/share.png";
 import shopbag from "../../Icons/shopping-bag.png";
@@ -17,7 +17,7 @@ const CoverImageTshirt = () => {
       <div class="line"></div>
       <div className="container" style={{ marginTop: "32px" }}>
         <div className="coverImage">
-          <img src={tshirt} height={324} width={283} alt="product" />
+          <img className="coverImage" src={tshirt} alt="product" />
           <img
             className="icon-1"
             src={like}

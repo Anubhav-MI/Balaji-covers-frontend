@@ -9,33 +9,6 @@ import scan from "../../Icons/scan.png";
 import dash from "../../Icons/dash.png";
 
 const DetailsTshirt = () => {
-  // State to track the selected value
-  // const [selectedbrand1, setSelectedbrand1] = useState("");
-  // const [selectedbrand2, setSelectedbrand2] = useState("");
-  // const [selectedmodel1, setSelectedmodel1] = useState("");
-  // const [selectedmodel2, setSelectedmodel2] = useState("");
-  // const [selectedcover, setcovertype] = useState("");
-  const [name, setname] = useState("");
-  // Handler function for onChange event
-  // const handleSelectbrand1 = (event) => {
-  //   setSelectedbrand1(event.target.value);
-  // };
-  // const handleSelectmodel1 = (event) => {
-  //   setSelectedmodel1(event.target.value);
-  // };
-  // const handleSelectbrand2 = (event) => {
-  //   setSelectedbrand2(event.target.value);
-  // };
-  // const handleSelectmodel2 = (event) => {
-  //   setSelectedmodel2(event.target.value);
-  // };
-  // const handleSelectedcover = (event) => {
-  //   setcovertype(event.target.value);
-  // };
-  const handlename = (event) => {
-    setname(event.target.value);
-  };
-
   const [quantity, setQuantity] = useState(1); // Initial quantity is set to 1
 
   const handleIncrement = () => {
@@ -54,7 +27,6 @@ const DetailsTshirt = () => {
         <a href="/">Home</a>
         <img src={dash} alt="product" height={8} width={8} />
         <a href="/home/Tshirt">Tshirt</a>
-        <img src={dash} alt="product" height={8} width={8} />
         <img src={dash} alt="product" height={8} width={8} />
         Details
       </p>
@@ -91,99 +63,14 @@ const DetailsTshirt = () => {
         <div className="container">
           {" "}
           <div className="detail-container">
-            <label htmlFor="dropdown">Frame colour*</label>
-            <select
-              className="drop-box"
-              id="dropdown"
-              // value={selectedbrand1}
-              // onChange={handleSelectbrand1}
-            >
+            <label htmlFor="dropdown">Size*</label>
+            <select className="drop-box" id="dropdown">
               <option value=""> Please Choose</option>
               <option value="option1">Option 1</option>
               <option value="option2">Option 2</option>
               <option value="option3">Option 3</option>
             </select>{" "}
           </div>
-          <div className="detail-container">
-            <label htmlFor="dropdown">Frame size*</label>
-            <select
-              className="drop-box"
-              id="dropdown"
-              // value={selectedbrand1}
-              // onChange={handleSelectbrand1}
-            >
-              <option value=""> Please Choose (for cover 1)</option>
-              <option value="option1">Option 1</option>
-              <option value="option2">Option 2</option>
-              <option value="option3">Option 3</option>
-            </select>{" "}
-          </div>
-          {/* <div className="detail-container">
-            <label htmlFor="dropdown">Select Model*</label>
-            <select
-              className="drop-box"
-              id="dropdown"
-              value={selectedmodel1}
-              onChange={handleSelectmodel1}
-            >
-              <option value=""> Please Choose (for cover 1)</option>
-              <option value="option1">Option 1</option>
-              <option value="option2">Option 2</option>
-              <option value="option3">Option 3</option>
-            </select>{" "}
-          </div>
-          <div className="detail-container">
-            <label htmlFor="dropdown">Choose Your Phone Brand*</label>
-            <select
-              className="drop-box"
-              id="dropdown"
-              value={selectedbrand2}
-              onChange={handleSelectbrand2}
-            >
-              <option value=""> Please Choose (for cover 2)</option>
-              <option value="option1">Option 1</option>
-              <option value="option2">Option 2</option>
-              <option value="option3">Option 3</option>
-            </select>{" "}
-          </div> */}
-          {/* <div className="detail-container">
-            <label htmlFor="dropdown">Select Model*</label>
-            <select
-              className="drop-box"
-              id="dropdown"
-              value={selectedmodel2}
-              onChange={handleSelectmodel2}
-            >
-              <option value=""> Please Choose (for cover 2)</option>
-              <option value="option1">Option 1</option>
-              <option value="option2">Option 2</option>
-              <option value="option3">Option 3</option>
-            </select>{" "}
-          </div> */}
-          <div className="detail-container">
-            <label>Enter your name (if you want to print on frame)</label>
-            <input
-              value={name}
-              onChange={handlename}
-              className="drop-box"
-              type="text"
-              placeholder="John Doe"
-            ></input>
-          </div>
-          {/* <div className="detail-container">
-            <label htmlFor="dropdown">Select cover type*</label>
-            <select
-              className="drop-box"
-              id="dropdown"
-              value={selectedcover}
-              onChange={handleSelectedcover}
-            >
-              <option value=""> Please Choose</option>
-              <option value="option1">Option 1</option>
-              <option value="option2">Option 2</option>
-              <option value="option3">Option 3</option>
-            </select>{" "}
-          </div> */}
           <div className="row-container gap">
             <div>
               <label htmlFor="quantity">Quantity</label>
@@ -212,7 +99,12 @@ const DetailsTshirt = () => {
             </div>
             <div>
               <label htmlFor="quantity">Amount</label>
-              <div className="drop-box box2"></div>
+              <div
+                className="drop-box box2"
+                style={{ fontSize: "20px", textAlign: "right" }}
+              >
+                1099.00
+              </div>
             </div>
           </div>
           <div>

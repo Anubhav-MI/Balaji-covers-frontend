@@ -47,6 +47,7 @@ import Detail2 from "./Components/home/customize/detail2";
 import Payment from "./Components/home/customize/payment";
 import Paymentdone from "./Components/home/customize/paymentdone";
 import Bag from "./Components/home/bag/bag";
+import Carousel from "./Components/Tshirt/carousel";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -64,6 +65,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/signin" element={<SignIn />} />
+          <Route path="/car" element={<Carousel />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/termsandcondition" element={<Terms />} />
