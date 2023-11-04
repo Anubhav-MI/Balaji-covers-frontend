@@ -1,9 +1,10 @@
 import "./coverImagetshirt.css";
 import tshirt from "../../Icons/t1.jpg";
-import like from "../../Icons/love.png";
-import share from "../../Icons/share.png";
+// import like from "../../Icons/love.png";
+// import share from "../../Icons/share.png";
 import shopbag from "../../Icons/shopping-bag.png";
 import dash from "../../Icons/dash.png";
+import Carousel from "./carousel";
 const CoverImageTshirt = () => {
   return (
     <div>
@@ -16,7 +17,7 @@ const CoverImageTshirt = () => {
       </p>
       <div class="line"></div>
       <div className="container" style={{ marginTop: "32px" }}>
-        <div className="coverImage">
+        {/* <div className="coverImage">
           <img className="coverImage" src={tshirt} alt="product" />
           <img
             className="icon-1"
@@ -32,7 +33,8 @@ const CoverImageTshirt = () => {
             width={24}
             alt="product"
           />
-        </div>
+        </div> */}
+        <Carousel />
         <div className="row-container">
           <button className="buy-btn action-btn">
             <a

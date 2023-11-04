@@ -6,7 +6,7 @@
   --secondary-text-color: #4c5c5f;
 }
 body {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   color: #4c5c5f;
 }
 a {
