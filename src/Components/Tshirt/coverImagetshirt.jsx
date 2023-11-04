@@ -54,50 +54,52 @@ const CoverImageTshirt = () => {
         </div>
         <div className="category">
           <div className="container">
-            <img
-              className="item-card"
-              src={tshirt}
-              height={175}
-              width={150}
-              alt="product"
-            />
-            <div className="callToAction">
-              <button className="buy-btn action-btn">
-                <a href="/home/customize/image" style={{ color: "#fffbf1" }}>
-                  Select Model
-                </a>
-              </button>
+            <a
+              href="/home/glass-cover/cover-image-tshirt"
+              style={{ color: "#fffbf1" }}
+            >
               <img
-                className="icon"
-                src={shopbag}
-                height={36}
-                width={36}
+                className="item-card"
+                src={tshirt}
+                height={175}
+                width={150}
                 alt="product"
               />
-            </div>
+              <div className="callToAction">
+                <button className="buy-btn action-btn">Buy now</button>
+                <img
+                  className="icon"
+                  src={shopbag}
+                  height={36}
+                  width={36}
+                  alt="product"
+                />
+              </div>
+            </a>
           </div>
           <div className="container">
-            <img
-              className="item-card"
-              src={tshirt}
-              height={175}
-              width={150}
-              alt="product"
-            />
-            <div className="callToAction">
-              <button className="buy-btn action-btn">
-                <a href="/home/customize/image" style={{ color: "#fffbf1" }}>
-                  Select Model
-                </a>
-              </button>
+            <a
+              href="/home/glass-cover/cover-image-tshirt"
+              style={{ color: "#fffbf1" }}
+            >
               <img
-                className="icon"
-                src={shopbag}
-                height={36}
-                width={36}
+                className="item-card"
+                src={tshirt}
+                height={175}
+                width={150}
                 alt="product"
               />
-            </div>
+              <div className="callToAction">
+                <button className="buy-btn action-btn">Buy now</button>
+                <img
+                  className="icon"
+                  src={shopbag}
+                  height={36}
+                  width={36}
+                  alt="product"
+                />
+              </div>
+            </a>
           </div>
         </div>
       </div>

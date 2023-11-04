@@ -29,84 +29,76 @@ function Tshirt() {
         />
         <div className="products category">
           <div className="product-cards container">
-            <img src={frame} height={175} width={150} alt="product" />
-            <div className="callToAction">
-              <button className="buy-btn action-btn">
-                <a
-                  href="/home/glass-cover/cover-image-tshirt"
-                  style={{ color: "#fffbf1" }}
-                >
-                  Select Model
-                </a>
-              </button>
-              <img
-                className="icon"
-                src={shopbag}
-                height={36}
-                width={36}
-                alt="product"
-              />
-            </div>
+            <a
+              href="/home/glass-cover/cover-image-tshirt"
+              style={{ color: "#fffbf1" }}
+            >
+              <img src={frame} height={175} width={150} alt="product" />
+              <div className="callToAction">
+                <button className="buy-btn action-btn">Buy now</button>
+                <img
+                  className="icon"
+                  src={shopbag}
+                  height={36}
+                  width={36}
+                  alt="product"
+                />
+              </div>
+            </a>
           </div>
           <div className="product-cards container">
-            <img src={frame} height={175} width={150} alt="product" />
-            <div className="callToAction">
-              <button className="buy-btn action-btn">
-                <a
-                  href="/home/glass-cover/cover-image-tshirt"
-                  style={{ color: "#fffbf1" }}
-                >
-                  Select Model
-                </a>
-              </button>
-              <img
-                className="icon"
-                src={shopbag}
-                height={36}
-                width={36}
-                alt="product"
-              />
-            </div>
+            <a
+              href="/home/glass-cover/cover-image-tshirt"
+              style={{ color: "#fffbf1" }}
+            >
+              <img src={frame} height={175} width={150} alt="product" />
+              <div className="callToAction">
+                <button className="buy-btn action-btn">Buy now</button>
+                <img
+                  className="icon"
+                  src={shopbag}
+                  height={36}
+                  width={36}
+                  alt="product"
+                />
+              </div>
+            </a>
           </div>
           <div className="product-cards container">
-            <img src={frame} height={175} width={150} alt="product" />
-            <div className="callToAction">
-              <button className="buy-btn action-btn">
-                <a
-                  href="/home/glass-cover/cover-image-tshirt"
-                  style={{ color: "#fffbf1" }}
-                >
-                  Select Model
-                </a>
-              </button>
-              <img
-                className="icon"
-                src={shopbag}
-                height={36}
-                width={36}
-                alt="product"
-              />
-            </div>
+            <a
+              href="/home/glass-cover/cover-image-tshirt"
+              style={{ color: "#fffbf1" }}
+            >
+              <img src={frame} height={175} width={150} alt="product" />
+              <div className="callToAction">
+                <button className="buy-btn action-btn">Buy now</button>
+                <img
+                  className="icon"
+                  src={shopbag}
+                  height={36}
+                  width={36}
+                  alt="product"
+                />
+              </div>
+            </a>
           </div>
           <div className="product-cards container">
-            <img src={frame} height={175} width={150} alt="product" />
-            <div className="callToAction">
-              <button className="buy-btn action-btn">
-                <a
-                  href="/home/glass-cover/cover-image-tshirt"
-                  style={{ color: "#fffbf1" }}
-                >
-                  Select Model
-                </a>
-              </button>
-              <img
-                className="icon"
-                src={shopbag}
-                height={36}
-                width={36}
-                alt="product"
-              />
-            </div>
+            <a
+              href="/home/glass-cover/cover-image-tshirt"
+              style={{ color: "#fffbf1" }}
+            >
+              <img src={frame} height={175} width={150} alt="product" />
+              <div className="callToAction">
+                <button className="buy-btn action-btn">Buy now</button>
+                <img
+                  className="icon"
+                  src={shopbag}
+                  height={36}
+                  width={36}
+                  alt="product"
+                />
+              </div>
+            </a>
           </div>
         </div>
       </div>

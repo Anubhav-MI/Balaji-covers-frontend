@@ -6,7 +6,7 @@ import bag from "../../Icons/bag.png";
 import saved from "../../Icons/savedadd.png";
 import info from "../../Icons/about.png";
 import review from "../../Icons/review.png";
-import logo from "../../Icons/logobb.png";
+import logo from "../../Icons/balaji cover logo.png";
 import user from "../../Icons/userprofile.png";
 import dropdown from "../../Icons/down.png";
 const Sidebar = () => {
