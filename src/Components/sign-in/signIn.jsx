@@ -38,7 +38,7 @@ function SignIn() {
   // };
 
   return (
-    <div className="main">
+    <div>
       <Sidebar />
       <div className="main-content">
         <p className="top roww">

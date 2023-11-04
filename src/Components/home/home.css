@@ -17,7 +17,9 @@
 
 @media (min-width: 400px) {
   .main {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    overflow-x: hidden;
   }
   .title-container {
     font-family: Gill Sans MT;
@@ -29,8 +31,11 @@
   }
   .main-content {
     width: 100%;
+    max-width: 1240px;
     margin-left: 296px;
     background-color: #fffbf1;
+    flex-grow: 1;
+    /* overflow: hidden; */
   }
   .row2 {
     display: flex;

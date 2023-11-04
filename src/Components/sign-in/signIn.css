@@ -4,6 +4,7 @@
   gap: 32px;
   align-items: center;
 }
+
 .form-item {
   width: 312px;
   height: 48px;
@@ -69,8 +70,10 @@
     align-items: center;
   }
   .sign {
-    width: 360px;
-    margin-left: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .top {
     padding-left: 24px;

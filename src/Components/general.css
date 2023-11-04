@@ -6,8 +6,10 @@
   --secondary-text-color: #4c5c5f;
 }
 body {
-  /* overflow-x: hidden; */
   color: #4c5c5f;
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 a {
   color: #424d51;
