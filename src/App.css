@@ -3,8 +3,9 @@
 }
 @media (max-width: 400px) {
   .App {
-    display: "flex", flex-direction "column";
-    justify-content: "center";
-    align-items: "baseline";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
   }
 }
