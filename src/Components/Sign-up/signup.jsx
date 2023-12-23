@@ -3,8 +3,32 @@ import "../general.css";
 import Footer2 from "../footer/footer2";
 import dash from "../../Icons/dash.png";
 import Sidebar from "../sidebar/sidebar";
+import { useState } from "react";
+import axios from "axios";
+ import { useNavigate } from "react-router-dom";
+ import Cookies from "js-cookie";
+
+
 function SignUp() {
+ 
+  const [formData,setFormData] = useState({username:"",password:""})
+ const navigate = useNavigate();
+
+  const onHandleSubmit=async(e)=>{
+    try{
+      e.preventDefault();
+     const response=await axios.post(`https://balaji-9ge1.onrender.com/api/auth/signup/`,formData)
+     console.log("response",response)
+     Cookies.set("mytoken" , response.data.token, {expires:30})
+     localStorage.setItem("isLoggedIn","true")
+    navigate("/");
+    }
+catch(error){
+  console.log("error",error)
+}
+  }
   return (
+    <form onSubmit={onHandleSubmit}>
     <div className="main">
       <Sidebar />
       <div className="main-content">
@@ -28,15 +52,25 @@ function SignUp() {
               className="form-item"
               type="email"
               placeholder="Email"
+              onChange={(e)=>setFormData({
+                ...formData,
+                username:e.target.value
+              })}
             ></input>
-            <input
+
+            <input 
               className="form-item"
               type="password"
               placeholder="Password"
+              onChange={(e)=>setFormData({
+                ...formData,
+                password:e.target.value
+
+              })}
             ></input>
             <button className="form-item action-btn create-btn">CREATE</button>
           </div>
-
+          
           <div className="auth response">
             <p>Or Sign up using</p>
             <div className="auth-icon">
@@ -66,6 +100,7 @@ function SignUp() {
         <Footer2 />
       </div>
     </div>
+    </form>
   );
 }
 export default SignUp;

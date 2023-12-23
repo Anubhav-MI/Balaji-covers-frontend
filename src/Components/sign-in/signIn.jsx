@@ -1,43 +1,30 @@
 import "./signIn.css";
 import "../general.css";
-// import axios from "axios";
+import axios from "axios";
 // import { useState, useEffect } from "react";
 import Footer2 from "../footer/footer2";
 import dash from "../../Icons/dash.png";
 import Sidebar from "../sidebar/sidebar";
+import { useState } from "react";
+import Cookies from "js-cookie";
+import { useNavigate } from "react-router-dom";
 function SignIn() {
-  // const [data, setdata] = useState({});
+  const [ formData, setFormData]=useState({username:"",password:""});
+  const navigate= useNavigate();
 
-  // useEffect(() => {
-  //   axios
-  //     .get("http://localhost:8000/api/auth/login/")
-  //     .then((response) => {
-  //       setdata(response.data);
-  //       console.log(data);
-  //     })
-  //     .catch((error) => console.log(error));
-  // }, []);
-
-  // const handlesubmit = () => {
-  //   console.log(input);
-  //   try {
-  //     const response = axios.post("http://localhost:8000/api/auth/login/", {
-  //       data: input,
-  //     });
-
-  //     if (response.status === 200) {
-  //       // Handle success
-  //       console.log("Data sent successfully");
-  //     } else {
-  //       // Handle error
-  //       console.error("Failed to send data");
-  //     }
-  //   } catch (error) {
-  //     console.error("Error:", error);
-  //   }
-  // };
-
+  const onHandleSubmit=async(e)=>{
+    e.preventDefault()
+    try{
+   const response=await axios.post(`https://balaji-9ge1.onrender.com/api/auth/login/`,formData)
+   console.log("response",response);
+   Cookies.set("mytoken",response.data.token,{expires:30});
+   navigate("/")}
+   catch(error){
+    console.log("error",error)
+   }
+  }
   return (
+    <form onSubmit={onHandleSubmit}>
     <div>
       <Sidebar />
       <div className="main-content">
@@ -60,11 +47,20 @@ function SignIn() {
               className="form-item"
               type="email"
               placeholder="Email"
+              onChange={(e)=>setFormData({
+                ...formData,
+                username:e.target.value
+              })}
             ></input>
             <input
               className="form-item"
               type="password"
               placeholder="Password"
+              onChange={(e)=>setFormData({
+                ...formData,
+                password:e.target.value
+              })}
+
             ></input>
             <p>
               Forgot your password?{" "}
@@ -103,7 +99,7 @@ function SignIn() {
         </div>
         <Footer2 />
       </div>
-    </div>
+    </div></form>
   );
 }
 export default SignIn;
